@@ -7,7 +7,7 @@ import Careers from './pages/Careers';
 import Clients from './pages/Clients';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
-import Footer from './components/Navbar/Footer/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
