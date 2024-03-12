@@ -18,10 +18,10 @@ function Navbar() {
       </Link>
         <div className="hidden md:flex space-x-4">
           <a href="/" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/">Home</Link></a>
-          <a href="/about" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/about">About us</Link></a>
-          <a href="/services" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/careers">Careers</Link></a>
-          <a href="/careers" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/clients">Clinets</Link></a>
+          <a href="/about" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/about">About us</Link></a> 
           <a href="/clients" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/services">Services</Link></a>
+          <a href="/services" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/careers">Careers</Link></a>
+          <a href="/careers" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/clients">Clients</Link></a>
           <a href="/contact" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/contact">Contact us</Link></a>
         </div>
         {/* Hamburger icon */}
@@ -37,7 +37,7 @@ function Navbar() {
         <a href="#about" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/about" onClick={closeMenu}>About us</Link></a>
         <a href="#services" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/services" onClick={closeMenu}>Services</Link></a>
         <a href="#careers" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/careers" onClick={closeMenu}>Careers</Link></a>
-        <a href="#clients" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/clients" onClick={closeMenu}>Clinets</Link></a>
+        <a href="#clients" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/clients" onClick={closeMenu}>Clients</Link></a>
         <a href="#contact" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/contact" onClick={closeMenu}>Contact us</Link></a>
       </div>
     </nav>

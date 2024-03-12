@@ -26,7 +26,7 @@ export default function AboutUs() {
               <img src="home_image/exclusive.png" alt="exlusive service" className="w-16 h-16 rounded-full object-cover object-center" />
             </div>
             <div className="m-2 p-4">
-              <h3 className="text-xl font-semibold mb-2 text-center transform transition-transform hover:translate-y-[-2px]">Exclusive Service</h3>
+              <h3 className="text-xl font-semibold mb-2 text-center transform transition-transform hover:translate-y-[-4px]">Exclusive Service</h3>
               <p className="text-gray-600 text-center">We serve small, medium, and large scale organizations with the belief that no business or technological initiative is too difficult for us to handle</p>
             </div>
           </div> 
@@ -37,7 +37,7 @@ export default function AboutUs() {
               <img src="/home_image/superFast.png" alt="superFast" className="w-16 h-16 rounded-full object-cover object-center" />
             </div>
             <div className="m-2 p-4">
-              <h3 className="text-xl font-semibold mb-2 text-center transform transition-transform hover:translate-y-[-1px]">Super Fast </h3>
+              <h3 className="text-xl font-semibold mb-2 text-center transform transition-transform hover:translate-y-[-4px]">Super Fast </h3>
               <p className="text-gray-600 text-center">From cloud migration to managed IT, Refyn Data's quick-deploy solutions & top talent get you online and optimized - fast</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function AboutUs() {
               <img src="/home_image/BestQuality.png" alt="Best Quality" className="w-16 h-16 rounded-full object-cover object-center" />
             </div>
             <div className="m-2 p-4">
-              <h3 className="text-xl font-semibold mb-2 text-center transform transition-transform hover:translate-y-[-1px]">Best Quality</h3>
+              <h3 className="text-xl font-semibold mb-2 text-center transform transition-transform hover:translate-y-[-4px]">Best Quality</h3>
               <p className="text-gray-600 text-center">Refyn Data's top-notch IT solutions go beyond fixing problems. They proactively optimize your systems, ensuring smooth sailing for your business.</p>
             </div>
           </div>
