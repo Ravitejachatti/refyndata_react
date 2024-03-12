@@ -89,7 +89,9 @@ const Careers = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
           <div className="col-span-1 md:col-span-1">
-            <div className="w-full p-5 border border-rounded">
+
+            {/* table of content */}
+            <div className="w-full p-5 border border-gray-400 rounded-md">
               <p className=" text-[23px] font-bold">Careers:</p>
               <table className="table-auto">
                 <tbody>
@@ -99,7 +101,7 @@ const Careers = () => {
                       onClick={() => handleJobSelect(job)}
                       className="cursor-pointer hover:bg-gray-200"
                     >
-                      <td className="px-4 py-2 font-semibold">{job.name}</td>
+                      <td className="px-8 py-2 font-semibold">{job.name}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -118,38 +120,42 @@ const Careers = () => {
                   <p>
                     <strong>Location:</strong> {selectedJob.location}
                   </p>
-                  <p>
+                  <p className="py-2 text-lg">
                     <strong>Responsibilities:</strong>
                   </p>
                   <ul>
                     {selectedJob.responsibilities.map(
                       (responsibility, index) => (
-                        <li key={index}>• {responsibility}</li>
+                        <li key={index} className="pl-2 ml-2 py-{2px}"> {index + 1}. {responsibility}</li>
                       )
                     )}
                   </ul>
-                  <p>
-                    <strong>
+                  <p className=" pt-5 pb-1 text-lg">
+                    <strong >
                       Minimum Qualification: <br></br>
-                    </strong>{" "}
-                    • {selectedJob.minimumQualification}
-                  </p>
-                  <p>
+                    </strong>{" "}</p>
+                    <ul>{selectedJob.minimumQualification.map(
+                    (minimumQualification, index) => (
+                      <li key={index} className="pl-2 ml-2">{index + 1}. {minimumQualification} </li>
+                    ))}
+                    </ul>
+                  
+                  <p className=" pt-5 pb-1 text-lg" >
                     <strong>Special Qualifications:</strong>
                   </p>
                   <ul>
                     {selectedJob.specialQualifications.map(
                       (qualification, index) => (
-                        <li key={index}>• {qualification}</li>
+                        <li key={index} className="pl-2 ml-2">{index +1}. {qualification}</li>
                       )
                     )}
                   </ul>
-                  <p>
+                  <p className=" pt-5 pb-1 text-lg">
                     <strong>Requirements:</strong>
                   </p>
                   <ul>
                     {selectedJob.requirements.map((requirement, index) => (
-                      <li key={index}>• {requirement}</li>
+                      <li key={index} className="pl-2 ml-2">{index+ 1}. {requirement}</li>
                     ))}
                   </ul>
                   <div className="mt-6">
