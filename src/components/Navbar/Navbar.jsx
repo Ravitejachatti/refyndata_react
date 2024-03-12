@@ -11,18 +11,18 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-gray-800 text-white">
+    <nav className="bg-white text-[#0079A0] font-bold shadow-lg sticky top-0 z-40">
       <div className="container mx-auto px-4 py-5 flex items-center justify-between">
       <Link to="/" onClick={closeMenu}>
         <img src="refyndata.png" alt="logo" className="h-10" />
       </Link>
         <div className="hidden md:flex space-x-4">
-          <a href="#home" className="hover:text-blue-300"><Link to="/">Home</Link></a>
-          <a href="#about" className="hover:text-blue-300"><Link to="/about">About us</Link></a>
-          <a href="#services" className="hover:text-blue-300"><Link to="/careers">Careers</Link></a>
-          <a href="#careers" className="hover:text-blue-300"><Link to="/clients">Clinets</Link></a>
-          <a href="#clients" className="hover:text-blue-300"><Link to="/services">Services</Link></a>
-          <a href="#contact" className="hover:text-blue-300"><Link to="/contact">Contact us</Link></a>
+          <a href="/" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/">Home</Link></a>
+          <a href="/about" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/about">About us</Link></a>
+          <a href="/services" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/careers">Careers</Link></a>
+          <a href="/careers" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/clients">Clinets</Link></a>
+          <a href="/clients" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/services">Services</Link></a>
+          <a href="/contact" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/contact">Contact us</Link></a>
         </div>
         {/* Hamburger icon */}
         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden focus:outline-none">
@@ -33,12 +33,12 @@ function Navbar() {
       </div>
       {/* Mobile menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
-        <a href="#home" className="block hover:text-blue-300 py-2"><Link to="/" onClick={closeMenu}>Home</Link></a>
-        <a href="#about" className="block hover:text-blue-300 py-2"><Link to="/about" onClick={closeMenu}>About us</Link></a>
-        <a href="#services" className="block hover:text-blue-300 py-2"><Link to="/services" onClick={closeMenu}>Services</Link></a>
-        <a href="#careers" className="block hover:text-blue-300 py-2"><Link to="/careers" onClick={closeMenu}>Careers</Link></a>
-        <a href="#clients" className="block hover:text-blue-300 py-2"><Link to="/clients" onClick={closeMenu}>Clinets</Link></a>
-        <a href="#contact" className="block hover:text-blue-300 py-2"><Link to="/contact" onClick={closeMenu}>Contact us</Link></a>
+        <a href="/" className="hover:bg-gray-200 px-3 py-2 rounded-md"><Link to="/" onClick={closeMenu}>Home</Link></a>
+        <a href="#about" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/about" onClick={closeMenu}>About us</Link></a>
+        <a href="#services" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/services" onClick={closeMenu}>Services</Link></a>
+        <a href="#careers" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/careers" onClick={closeMenu}>Careers</Link></a>
+        <a href="#clients" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/clients" onClick={closeMenu}>Clinets</Link></a>
+        <a href="#contact" className="hover:bg-gray-200 block px-3 py-2 rounded-md"><Link to="/contact" onClick={closeMenu}>Contact us</Link></a>
       </div>
     </nav>
   );

@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# This is refyndata company website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Repo is Officially Managed & Developed by Team containing: 
+1. Gautam kushwaha
+2. Leela Sri
+3. Sai Komal
+4. Ravi Teja Chatii
+5.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Note for Developers
 
-### `npm start`
+Strictly create a branch first and then only start working on something.
+Todo so you can follow the steps below:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Create branch
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- $ git branch new_branch
 
-### `npm test`
+2. Check all branch
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- $ git branch -v
 
-### `npm run build`
+3. Change master -> new_branch
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- $ git checkout new_branch
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Now you can work from here whatever change you want to make you can do it now. After that follow the below steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Track files specific to new_branch
 
-### `npm run eject`
+- $ git add .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Now change back to Master branch from new_branch
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- $ git checkout master
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. Commit & Push new_branch to server now
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- $ git commit -m "your message"
 
-## Learn More
+- $ git push -u origin new_branch
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7. Merge new_branch to master
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- $ git merge new_branch
 
-### Code Splitting
+8. After merge we can push the changes to the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- $ git push origin master
 
-### Analyzing the Bundle Size
+9. After doing all if you want to delete new_branch locally then do the following
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- $ git branch -D new_branch
 
-### Making a Progressive Web App
+10. Now push the changes so that new_branch gets deleted on the server as well
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- $ git push origin --delete new_branch
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+--------------------------------------------------------------------
+Q. How to get incoming update from main branch to working branch?
+--------------------------------------------------------------------
 
-### Deployment
+--------------------------------------------------------------------
+A. git merge main (when you're in your working branch)
+--------------------------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+# Summary
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- $ git branch new_branch
+- $ git checkout new_branch
+- $ git push -u origin new_branch
+- $ git branch -v (list all branch)
+- $ git merge new_branch
+- $ git branch -D new_branch
+- $ git push origin -delete new_branch# SIH_New_Railway_website
+
+# Jus have a glance on the website interfaces:
+![Alt Text](https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg?size=626&ext=jpg&ga=GA1.2.788017613.1695444954&semt=ais)
+
+![Alt Text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Gv5Nv7EJx8ciqOXEwQ_ZXWKEYViziWRg-Q&usqp=CAU)
+![Alt Text](./BrowserImage/1.png)
+![Alt Text](./BrowserImage/2.png)
+![Alt Text](./BrowserImage/3.png)
+![Alt Text](./BrowserImage/4.png)
+
+#clicking on the goto section "click me"  you will be navigated to the /passenger route. similarly for the security person entering the security code they will be navigated to the /security page and they will be like this.. they will have different interface on the basic of requirement. This is the sample interface, which we have kept same but will be different for both of them..
+
+![Alt Text](./BrowserImage/5.png)
+![Alt Text](./BrowserImage/1.png)
+![Alt Text](./BrowserImage/1.png)
+![Alt Text](./BrowserImage/1.png)
+![Alt Text](./BrowserImage/1.png)
+![Alt Text](./BrowserImage/1.png)
