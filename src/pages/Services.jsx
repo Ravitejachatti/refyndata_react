@@ -14,17 +14,18 @@ const Services = () => {
           <h1 className="text-md font-bold">Home / Services</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[60px]">
+
           {/* Table of Contents (Left Column) */}
          
           <div className="md:col-span-1 "> 
-          <div className='w-full border border-gray-400 rounded-md'>
-          <p className="text-2xl px-5 py-3 font-bold">Services:</p>
+          <div className='w-full border border-gray-400 rounded-md p-5'>
+          <p className="text-2xl font-bold">Services:</p>
             <table className="w-full  ">
            
               <tbody>
                 {servicesData.services.map((service, index) => (
                   <tr key={index} onClick={() => handleServiceSelect(service)} className="cursor-pointer hover:bg-gray-200">
-                    <td className="px-7 py-2 font-semibold">{service.topic}</td>
+                    <td className="px-8 py-2 font-semibold">{service.topic}</td>
                   </tr>
                 ))}
               </tbody>

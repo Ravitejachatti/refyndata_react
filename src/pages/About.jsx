@@ -42,22 +42,22 @@ function About() {
                     <h1 className="text-md font-bold">Home / About Us</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-x-[60px]">
-                    {/* Table of Contents (Mobile view) */}
+                    {/* Table of Contents */}
                     <div className="">
                         <div className="w-full border border-gray-400 rounded-md">
-                            <p className="px-5 py-3 font-bold">Contents:</p>
-                            <table className="w-full px-5">
+                            <p className="px-5 py-3 font-bold text-[23px]">Contents:</p>
+                            <table className="w-full px-5 mb-5">
                                 <tbody>
                                     {topicsAndDescriptions.map(({ topic }, index) => (
                                         <tr key={index}>
-                                            <td className="px-6 py-2 font-semibold">{topic}</td>
+                                            <td className="px-8 py-2  font-semibold">{topic}</td>
                                         </tr>
                                     ))}
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    {/* Description (Desktop and Tablet) */}
+                    {/* Description  */}
                     <div className="col-span-2 md:col-span-2 lg:col-span-2">
                         <h3 className="text-3xl font-bold">About Us</h3>
                         <div className="border-t border-gray-600 my-4"></div>
