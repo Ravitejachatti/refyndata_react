@@ -1,3 +1,5 @@
+
+
 {
   "services": [
     {
@@ -19,7 +21,7 @@
     {
       "topic": "2. Application Development",
       "special_line": "Single or multiple, simple or complex, RefynData can take the guesswork out of your Project Management processes.",
-      "image": "/images/service2.jpg",
+      "image": "service_img/application_development1.jpg",
         "special_line": "Do you have a challenging business requirement? Then chances are we have the best solution in hand, irrespective of how complex or simple it is.",
         "special_line2": "With our technological adeptness, we can help you:",
       "description": {
@@ -35,7 +37,7 @@
     },
     {
       "topic": "3. Project Management",
-      "image": "/images/service2.jpg",
+      "image": "service_img/project_management.jpg",
       "special_line": "Single or multiple, simple or complex, RefynData can take the guesswork out of your Project Management processes.",
        "special_line2": "As part of our Project Management offering we cover:",
       "description": {
@@ -51,7 +53,7 @@
     },
     {
       "topic": "4. Big Data",
-      "image": "/images/service2.jpg",
+      "image": "service_img/big data2.jpg",
        "special_line": "With big businesses come large volumes of data and complex data workflows. The larger the organization the greater is the need to manage, govern, and organize data volumes, both structured and unstructured.",
        "special_line": "With us you can:",
       "description": {
@@ -67,7 +69,7 @@
       ]
     },{
       "topic": "5. Business Analysis",
-      "image": "/images/service2.jpg",
+      "image": "service_img/business analysis.jpg",
       "special_line": "Business success is all about business performance and how well you leverage advancements in technology to take your company forward.",
        "special_line2": "With RefynData you can:",
       "description": {
@@ -84,7 +86,7 @@
     },
     {
       "topic": "6. Mobile App Development",
-      "image": "/images/service2.jpg",
+      "image": "service_img/mobile application development1.jpeg",
       "special_line": "Business success is all about business performance and how well you leverage advancements in technology to take your company forward.",
       "special_line2": "The only thing we need from you is an understanding of what the app should deliver. We take care of everything else. We provide you with:",
       "description": {
