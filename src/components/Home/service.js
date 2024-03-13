@@ -1,6 +1,7 @@
 // refyndata_react/src/CartAnimation.css
 import React from "react";
 import styles from "./CartAnimation.css"; // refyndata_react/src/components/Home/CartAnimation.css
+import './CartAnimation.css'
 
 const CartAnimation = () => {
   return (
@@ -50,12 +51,12 @@ const CartAnimation = () => {
           </div>
           <div className="background"></div>
           <img
-            className="item_images"
+            className="item_image"
             src="home_image/service_image/application_development.png"
-            alt="consultation"
+            alt="application_development"
           />
 
-          <p className="serivce_text_on">Application Development</p>
+          <p className="serivce_text_on spec">Application Development</p>
         </div>
 
         {/* Quality Analysis */}
@@ -71,12 +72,12 @@ const CartAnimation = () => {
           </div>
           <div className="background"></div>
           <img
-            className="item_images"
-            src="home_image/service_image/consultation.png"
-            alt="consultation"
+            className="item_image"
+            src="home_image/service_image/project_management.png"
+            alt="project_management"
           />
 
-          <p className="serivce_text_on">Project Management</p>
+          <p className="serivce_text_on spec">Project Management</p>
         </div>
         {/* Big Data */}
         <div className="cart_item">
@@ -91,9 +92,9 @@ const CartAnimation = () => {
           </div>
           <div className="background"></div>
           <img
-            className="item_images text-white"
+            className="item_image text-white"
             src="home_image/service_image/big_data.png"
-            alt="consultation"
+            alt="big_data"
           />
 
           <p className="serivce_text_on">Big Data</p>
@@ -113,9 +114,9 @@ Analysis</span>
           </div>
           <div className="background"></div>
           <img
-            className="item_images"
+            className="item_image"
             src="home_image/service_image/business_analysis.png"
-            alt="consultation"
+            alt="business_analysis"
           />
 
           <p className="serivce_text_on">Business 
@@ -136,12 +137,12 @@ Development </span>
           </div>
           <div className="background"></div>
           <img
-            className="item_images"
+            className="item_image"
             src="home_image/service_image/mobile.png"
-            alt="consultation"
+            alt="Mobile_app_development"
           />
 
-          <p className="serivce_text_on">Mobile App
+          <p className="serivce_text_on spec">Mobile App
 Development</p>
         </div>
       </div>
