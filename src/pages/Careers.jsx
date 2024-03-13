@@ -87,11 +87,11 @@ const Careers = () => {
         <div className="mb-10">
           <h1 className="text-md font-bold">Home / Careers</h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 lg:gap-20">
           <div className="col-span-1 md:col-span-1">
 
             {/* table of content */}
-            <div className="w-full p-5 border border-gray-400 rounded-md">
+            <div className="w-full p-3 md:p-2 lg:p-3  border border-gray-400 rounded-md mb-10">
               <p className=" text-[23px] font-bold">Careers:</p>
               <table className="table-auto">
                 <tbody>
@@ -101,7 +101,7 @@ const Careers = () => {
                       onClick={() => handleJobSelect(job)}
                       className="cursor-pointer hover:bg-gray-200"
                     >
-                      <td className="px-8 py-2 font-semibold">{job.name}</td>
+                      <td className="px-8 md:px-3 lg:px-8 py-2 font-semibold">{job.name}</td>
                     </tr>
                   ))}
                 </tbody>

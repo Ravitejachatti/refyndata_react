@@ -55,11 +55,11 @@
       "topic": "4. Big Data",
       "image": "service_img/big data2.jpg",
        "special_line": "With big businesses come large volumes of data and complex data workflows. The larger the organization the greater is the need to manage, govern, and organize data volumes, both structured and unstructured.",
-       "special_line": "With us you can:",
+        "special_line2": "With us you can:",
       "description": {
-        "paragraph1": "RefynData uses a formidable mix of technological tools and data management practices, methodologies, and processes to come up with solutions that help you use data wisely. Our Data Management System works across a blend of digital and legacy platforms. With us you can:",
-        "paragraph2": "Second paragraph of service 2 description.",
-        "paragraph3": "Third paragraph of service 2 description."
+        "paragraph1": "RefynData uses a formidable mix of technological tools and data management practices, methodologies, and processes to come up with solutions that help you use data wisely. Our Data Management System works across a blend of digital and legacy platforms. ",
+        "paragraph2": "",
+        "paragraph3": ""
       },
       "points": [
         "1. Capture and store large amounts of data at low costs of investment.",
@@ -92,7 +92,7 @@
       "description": {
         "paragraph1": "Education, e-commerce, lifestyle, utilities, travel, gaming – the list of business sectors is endless. So are the number of mobile application development platforms and software available to help you reach your goals.",
         "paragraph2": "At RefynData we don’t believe in sticking to one type of technology to simply get the job done. We use an amalgamation of the most feasible and versatile software to design the best solution that fits your need. iOS, Android, Windows – we are okay with them all. We are also okay with Hybrid and Web Apps.",
-        "paragraph3": "Third paragraph of service 2 description."
+        "paragraph3": ""
       },
       "points": [
         "1. A set of simplistic, user-friendly, yet appealing UI/UX Designs for you to choose from.",

@@ -33,12 +33,12 @@ export default function Contact() {
         </div>
 
         {/* email and phone contacts */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 ">
           {/* Phone number */}
-          <div className="flex items-center">
+          <div className="flex items-center mx-[20px]">
             <img
               src="/contact_us/phone.png"
-              alt="Description of your img"
+              alt="phone_icon"
               width={16}
               height={16}
             />
@@ -46,10 +46,10 @@ export default function Contact() {
             <span className="ml-2">+1 301-591-0989 ext: 403</span>
           </div>
           {/* Email */}
-          <div className="flex items-center">
+          <div className="flex items-center mx-[20px]">
             <img
               src="/contact_us/email.png"
-              alt="Description of your img"
+              alt="email_icon"
               width={20}
               height={20}
             />
@@ -61,20 +61,24 @@ export default function Contact() {
 
        
         {/*  Address and location*/}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-20 mt-5">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 mt-5">
+
+          {/*Registered Office  */}
+          <div className="mx-[30px]">
             <img
               src="../contact_us/virginia_meryland.jpeg"
               alt="nnovative Cente"
-              className=" w-60 h-40 rounded-lg shadow-md mb-2"
+              className=" w-60 h-40 rounded-lg shadow-md mb-2 items-center"
             />
             <p className="text-xl font-semibold">Registered Office:</p>
             <p className="text-sm font-semibold">Clarksburg, West Virginia</p>
-            <p className="text-sm">
+            <p className="text-sm mb-5">
             11504 ELKHORN DRIVE,CLARKSBURG-MD-20871{" "}
             </p>
           </div>
-          <div>
+
+          {/* Corporate Office: */}
+          <div className="mx-[30px]">
             <img
               src="/contact_us/cororate.png"
               alt="nnovative Cente"
@@ -82,11 +86,13 @@ export default function Contact() {
             />
             <p className="text-xl font-semibold">Corporate Office:</p>
             <p className="text-sm font-semibold">Herndon,Virginia</p>
-            <p className="text-sm">
+            <p className="text-sm mb-5">
             13800 Coppermine RD Suite #162,Herndon,VA-20171{" "}
             </p>
           </div>
-          <div>
+
+          {/* Innovative Center: */}
+          <div className="mx-[30px]">
             <img
               src="/contact_us/visakhapatnam.png"
               alt="nnovative Cente"

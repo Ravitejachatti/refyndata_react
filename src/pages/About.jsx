@@ -41,11 +41,11 @@ function About() {
                 <div className="mb-10">
                     <h1 className="text-md font-bold">Home / About Us</h1>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-x-[60px]">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-[20px] lg:gap-x-[60px]">
                     {/* Table of Contents */}
-                    <div className="">
+                    <div className="mb-10">
                         <div className="w-full border border-gray-400 rounded-md">
-                            <p className="px-5 py-3 font-bold text-[23px]">Contents:</p>
+                            <p className="px-2 md:px-3 lg:px-5 py-1 md:py-2 lg:py-3 font-bold text-[23px]">Contents:</p>
                             <table className="w-full px-5 mb-5">
                                 <tbody>
                                     {topicsAndDescriptions.map(({ topic }, index) => (
@@ -63,7 +63,7 @@ function About() {
                         <div className="border-t border-gray-600 my-4"></div>
                         <p>Refyn Data empowers businesses with the perfect IT talent and data-driven solutions, offering unbeatable value for both government and private clients. Our expert consultants combine top-notch technical skills with deep industry knowledge, and go beyond mere project delivery. We become trusted partners, tailoring solutions to your specific needs and project environment. Think of us as your secret weapon, unlocking hidden potential and propelling your business forward.</p>
                         {topicsAndDescriptions.map(({ topic, description }, index) => (
-                            <div key={index} className="mb-4"> 
+                            <div key={index} className="mb-6"> 
                                 <h2 className="text-xl font-semibold mb-2">{topic}</h2>
                                 {topic === 'Our Solutions' ? (
                                     <>
