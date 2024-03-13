@@ -72,7 +72,7 @@ const CartAnimation = () => {
           <div className="background"></div>
           <img
             className="item_images"
-            src="home_image/service_image/consultation.png"
+            src="home_image/service_image/project_management.png"
             alt="consultation"
           />
 

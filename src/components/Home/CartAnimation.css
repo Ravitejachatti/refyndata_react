@@ -63,6 +63,7 @@
       font-size: 1.5rem;
       font-weight: 800;
       color:#0079A0; 
+      text-align: center;
     }
     .button_cart{
       background: #0079A0;
@@ -120,6 +121,7 @@
     .serivce_text_on{
       font-weight: 700;
       font-size:40px;
+      
     }
     
     .cart_item:hover .background {

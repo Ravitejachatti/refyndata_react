@@ -46,14 +46,14 @@ const Clients = () => {
           <h2 className="text-3xl font-bold mx-2"> Our Clients</h2>
           <div className="flex-grow border-b border-gray-400"></div>
           {/* <hr className="border-b-2 border-gray-400 mx-auto w-32" /> */}
-          <p className='w-[62%] text-[18px] py-3'>At Refyn Data, our clients are at the heart of everything we do. Partner with us for personalized solutions tailored to your business needs. Experience efficiency, reliability, and a workforce that propels your success forward.</p>
+          <p className=' lg:w-[62%] text-[16px] md:text-[17px] lg:text-[18px] py-3'>At Refyn Data, our clients are at the heart of everything we do. Partner with us for personalized solutions tailored to your business needs. Experience efficiency, reliability, and a workforce that propels your success forward.</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
           {logos.map((logo, index) => (
-            <div key={index} className="flex flex-col items-center border p-5">
+            <div key={index} className="flex flex-col items-center border p-3 md:p-4 lg:p-5">
               <img src={logo.logo} alt={logo.alt} className="max-h-24 md:max-h-32" />
               <div className="mt-2  text-center">
-                <p className=''>{logo.name}</p>
+                <p className='text-[15px]'>{logo.name}</p>
               </div>
             </div>
           ))}

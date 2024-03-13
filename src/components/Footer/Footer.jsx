@@ -43,7 +43,7 @@ const Footer = () => {
           {/* Column 3 */}
           <div className="mb-4 md:mb-0 text-[#0B1320]">
             <h3 className="text-xl font-semibold mb-2">Contact</h3>
-            <p className="mb-2 transform transition-transform hover:translate-y-[-5px]">Email: info@refyndata.com</p>
+            <p className=" transform transition-transform hover:translate-y-[-5px]">Email: info@refyndata.com</p>
             <p className="mb-2 transform transition-transform hover:translate-y-[-5px]">Contact: +1 301-591-0989 ext: 403</p>
             <a href="#" className="transform transition-transform hover:translate-y-[-5px] mb-2 "> Write to Us
             </a>
