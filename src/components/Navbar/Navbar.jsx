@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="bg-white text-[#0079A0] font-bold shadow sticky top-0 z-10">
       <div className="container mx-auto px-4 py-5 flex items-center justify-between">
         <Link to="/" onClick={closeMenu}>
-          <img src="refyndata.png" alt="logo" className="h-10" />
+          <img src="logos/refyndata.svg" alt="logo" className="h-20" />
         </Link>
         <div className="hidden md:flex space-x-4">
           <Link to="/" className="hover:bg-gray-200 px-3 py-2 rounded-md">Home</Link>

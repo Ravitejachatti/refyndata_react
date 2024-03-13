@@ -50,7 +50,7 @@ const CartAnimation = () => {
           </div>
           <div className="background"></div>
           <img
-            className="item_images"
+            className="item_image"
             src="home_image/service_image/application_development.png"
             alt="consultation"
           />
@@ -71,7 +71,7 @@ const CartAnimation = () => {
           </div>
           <div className="background"></div>
           <img
-            className="item_images"
+            className="item_image"
             src="home_image/service_image/project_management.png"
             alt="consultation"
           />
@@ -91,7 +91,7 @@ const CartAnimation = () => {
           </div>
           <div className="background"></div>
           <img
-            className="item_images text-white"
+            className="item_image text-white"
             src="home_image/service_image/big_data.png"
             alt="consultation"
           />
@@ -113,7 +113,7 @@ Analysis</span>
           </div>
           <div className="background"></div>
           <img
-            className="item_images"
+            className="item_image"
             src="home_image/service_image/business_analysis.png"
             alt="consultation"
           />
@@ -136,7 +136,7 @@ Development </span>
           </div>
           <div className="background"></div>
           <img
-            className="item_images"
+            className="item_image"
             src="home_image/service_image/mobile.png"
             alt="consultation"
           />
