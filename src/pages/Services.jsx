@@ -32,13 +32,13 @@ const Services = () => {
             </div>
           </div>
           {/* Content (Right Column) */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 font-poppins ">
             <div>
               <h2 className='text-3xl font-bold text-gray-800'>Services</h2>
               <p className="border-t border-gray-600 my-3"></p>
               <h3 className="text-2xl font-bold mb-2">{selectedService.topic}</h3>
               <p className='w-full font-regular font text-[18px]'><i>{selectedService.special_line}</i></p>
-              <img src={selectedService.image} alt={selectedService.topic} className="w-[400px] h-[225px] my-5 rounded-md" />
+              <img src={selectedService.image} alt={selectedService.topic} className="w-[500px] h-[400px] my-5 rounded-md" />
               <p className='w-full font-regular font md:text-lg'>{selectedService.description.paragraph1}</p>
               <br/>
               <p className='w-full font-regular font md:text-lg' >{selectedService.special_line2}</p>

@@ -37,7 +37,7 @@ function About() {
     
 ];
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 font-poppins ">
                 <div className="mb-10">
                     <h1 className="text-md font-bold">Home / About Us</h1>
                 </div>
