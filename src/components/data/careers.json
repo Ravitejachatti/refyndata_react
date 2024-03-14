@@ -218,8 +218,11 @@
       " Track record of setting technical direction, driving consensus, and building successful cross-functional partnerships",
       " Bachelor's degree in Computer Science, Computer Engineering, relevant technical field, or equivalent practical experience"],
       "specialQualifications": [" Masters degree or PhD in Computer Science or a related technical field", "2. Exposure to architectural patterns of large-scale software applications"],
-      "requirements": [
-        ""
+      "requirements": ["Strong programming skills in languages such as Python, Java, Scala, or SQL.",
+        "Experience with big data processing frameworks like Apache Hadoop, Apache Spark, or Apache Flink.",
+        "Knowledge of database systems such as MySQL, PostgreSQL, MongoDB, or Cassandra.",
+        "Ability to design and implement data models to support business requirements.",
+        "Experience with designing, implementing, and maintaining ETL processes."
       ]
     }
   ]

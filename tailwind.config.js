@@ -3,6 +3,14 @@ module.exports = {
   content: [ "./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {},
+    fontFamily:{
+      inter:["Inter","sans-serif"],
+      roboto:["Roboto","sans-serif"],
+      grotesk:["Space Grotesk","sans-serif"],
+      poppins:["Poppins","sans-serif"]
+
+
+    },
   },
   plugins: [],
 }

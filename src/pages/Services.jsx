@@ -32,7 +32,7 @@ const Services = () => {
             </div>
           </div>
           {/* Content (Right Column) */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 font-poppins ">
             <div>
               <h2 className='text-3xl font-bold text-gray-800'>Services</h2>
               <p className="border-t border-gray-600 my-3"></p>

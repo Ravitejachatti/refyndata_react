@@ -4,12 +4,12 @@ import React from 'react';
 
 export default function AboutUs() {
   return (
-    <section className="bg-[#F2F5F8] py-5 md:py-8 lg:py-12">
+    <section className="bg-[#F2F5F8] py-5 md:py-8 lg:py-12 font-roboto ">
       <div className="container mx-auto">
         {/* About Us Heading */}
         <div className="text-center mb-8 px-50 pb-5">
           <h2 className=" text-2xl lg:text-3xl font-bold pb-5">What makes us different?</h2>
-          <p className="text-gray-600 mt-2 px-50 w-[100%] md:w-[50%] text-center mx-3 md:mx-auto text-[15px] md:text-[17px]">
+          <p className="text-gray-600 mt-2 px-50 w-[100%] md:w-[50%] text-center mx-1 md:mx-auto text-[15px] lg:text-[17px]">
             <span>At REFYNDATA</span> IS A BUSINESS PLATFORM BUILT ON SPECIALIZED TECHNOLOGY AND IT-RELATED SERVICES, RUN BY A BUNCH OF SMART, KNOWLEDGEABLE, AND EXPERIENCED PEOPLE.</p>
         </div>
 
@@ -19,7 +19,7 @@ export default function AboutUs() {
         </div> */}
 
         {/* Card Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className=" grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Card 1 */}
           <div className=" overflow-hidden">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-4">

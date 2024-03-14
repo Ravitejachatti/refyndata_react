@@ -24,6 +24,7 @@
     grid-template-rows: repeat(2,minmax(auto,370px));
     justify-content: center;
     gap: 40px;
+    padding-bottom: 50px;
   }
   
   
@@ -59,7 +60,7 @@
       transform: translateY(100%); /* Initially hidden */
     }
     .span_con{
-      margin-bottom: -20px;
+      margin-bottom: -30px;
       font-size: 1.5rem;
       font-weight: 800;
       color:#0079A0; 
@@ -71,7 +72,7 @@
       border-style: none;
       border-radius: 6px;
       width: 100%;
-      margin-top: -10%;
+      margin-top: -20%;
       height: 30px;
       
       
