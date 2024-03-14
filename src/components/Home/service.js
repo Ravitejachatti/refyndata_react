@@ -99,12 +99,12 @@ const CartAnimation = () => {
           </div>
           <div className="background"></div>
           <img
-            className="item_image text-white"
+            className="item_image"
             src="home_image/service_image/big_data.png"
             alt="consultation"
           />
 
-          <p className="serivce_text_on">Big Data</p>
+          <p className="serivce_text_on mb_view"   >Big Data</p>
         </div>
 
         {/* Business Analysis */}
