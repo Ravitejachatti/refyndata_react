@@ -21,7 +21,7 @@ const Footer = () => {
             <img
               src="/footer/E-Verify_Logo-2x.png"
               alt="company_verification"
-              className="h-10 mb-3 "
+              className="h-8 md:h-10 mb-3 "
             />
             <p className="mb-3">
               With lots of unique blocks, you can easily build a page without
