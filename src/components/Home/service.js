@@ -126,7 +126,7 @@ Analysis</span>
             alt="consultation"
           />
 
-          <p className="serivce_text_on">Business 
+          <p className="serivce_text_on">Business <br></br>
 Analysis</p>
         </div>
 

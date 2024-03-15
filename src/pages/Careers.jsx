@@ -84,11 +84,11 @@ const Careers = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 font-poppins ">
+    <div className="container mx-auto p-4 font-poppins sm:px-3 md:px-5 lg:px-20">
       <div className="mb-10">
       <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 lg:gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-[20px] lg:gap-x-[60px]">
         <div className="col-span-1 md:col-span-1">
 
           {/* table of content */}
@@ -218,11 +218,6 @@ const Careers = () => {
                         />
                       </div>
                       <div className=" mb-10 text-white ">
-                        <label
-                          className=" mb-[10px] border w-[80%]  md:w-[40%] rounded-md   cursor-pointer "
-                          htmlFor="fileInput"
-                        >
-                        </label>
                         <input
                           id="fileInput"
                           type="file"
@@ -248,7 +243,7 @@ const Careers = () => {
                         className="py-[10px] mb-[24px] border rounded-md w-[100%]  md:w-[70%] bg-[#0079A0] text-white"
                         disabled={isSubmitting}
                       >
-                        {isSubmitting ? 'Please wait for few seconds...' : 'Submit'}
+                        {isSubmitting ? 'Submit' : 'Submit'}
                       </button>
                     </form>
                    

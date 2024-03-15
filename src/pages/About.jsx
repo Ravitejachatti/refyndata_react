@@ -38,14 +38,14 @@ function About() {
     
 ];
   return (
-    <div className="container mx-auto p-4 font-poppins ">
+    <div className="container mx-auto p-4 font-poppins sm:px-3 md:px-5 lg:px-20">
                 <div className="mb-10">
                     <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
                     
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-[20px] lg:gap-x-[60px]">
                     {/* Table of Contents */}
-                    <div className="mb-10">
+                    <div className="mb-10 hidden md:block">
                         <div className="w-full border border-gray-400 rounded-md">
                             <p className="px-2 md:px-3 lg:px-5 py-1 md:py-2 lg:py-3 font-bold text-[23px]">Contents:</p>
                             <table className="w-full px-5 mb-5">

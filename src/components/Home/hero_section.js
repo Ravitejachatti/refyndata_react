@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <div className="mt-2 py-12 md:py-16 lg:py-20">
+    <div className="mt-2 py-12 md:py-16 lg:py-20 sm:px-3 md:px-5 lg:px-20">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Column 1 */}
         <div className="md:w-3/5 mx-3 mb-8 md:mb-0 md:mr-4">
