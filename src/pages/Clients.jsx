@@ -18,7 +18,7 @@ const logos = [
   { name_company: 'Client 2', logo: '/clients/panera_bread.png', alt: 'PANERA BREAD', name: "PANERA BREAD" },
   { name_company: 'Client 2', logo: '/clients/ritz_carlton.jpeg', alt: 'RITZ CARLTON', name: "RITZ CARLTON" },
   { name_company: 'Client 2', logo: '/clients/service_now.png', alt: 'SERVICENOW', name: "SERVICENOW" },
-  { name_company: 'Client 2', logo: '/clients/TRC.webp', alt: 'TRC HEALTH CARE', name: "TRC HEALTH CARE " },
+  { name_company: 'Client 2', logo: '/clients/TRC.png', alt: 'TRC HEALTH CARE', name: "TRC HEALTH CARE " },
   { name_company: 'Client 2', logo: '/clients/verizons.png', alt: 'VERIZON', name: "VERIZON" },
 
 ];
