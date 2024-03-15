@@ -217,7 +217,7 @@
     }
 
   
-    @media (hover: none) and (pointer: coarse) and (max-width: 450px) {
+    @media (max-width: 450px) {
       .Service_cart {
         display: grid;
         grid-template-columns: repeat(2, minmax(auto, 150px));
@@ -225,6 +225,7 @@
         justify-content: center;
         gap: 10px;
       }
+      
     
       .background_content{
         
@@ -233,8 +234,9 @@
         margin-top: 58%;
       }
       .serivce_text_on{
-        top: 40px;
-        right: 10px;
+        bottom: 15%;
+        left: 20%;
+        transform: translateX(-50%);
         font-size:18px !important;
         
   

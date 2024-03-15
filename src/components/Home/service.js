@@ -104,7 +104,7 @@ const CartAnimation = () => {
             alt="consultation"
           />
 
-          <p className="serivce_text_on mb_view"   >Big Data</p>
+          <p className="serivce_text_on"   >Big Data</p>
         </div>
 
         {/* Business Analysis */}
@@ -120,6 +120,7 @@ Analysis</span>
             </div>
           </div>
           <div className="background"></div>
+          
           <img
             className="item_image"
             src="home_image/service_image/business_analysis.png"
@@ -128,6 +129,9 @@ Analysis</span>
 
           <p className="serivce_text_on">Business <br></br>
 Analysis</p>
+          
+          
+          
         </div>
 
         {/* Mobile App Development */}
