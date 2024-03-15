@@ -51,7 +51,7 @@ const Clients = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
           {logos.map((logo, index) => (
-            <div key={index} className="flex flex-col items-center justify-center  my-auto border p-3 md:p-4 lg:p-5">
+            <div key={index} className="flex flex-col items-center justify-center  my-auto  p-3 md:p-4 lg:p-5">
                <div className="flex items-center justify-center h-full">
 
               <img src={logo.logo} alt={logo.alt} className="my-auto" />
