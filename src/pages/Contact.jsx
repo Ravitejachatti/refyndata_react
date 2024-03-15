@@ -59,7 +59,7 @@ export default function Contact() {
           <Link to="https://maps.app.goo.gl/8VhdYJpt6cyVfLPn6" target="_blank" rel="noopener noreferrer">
           <div className="mx-[30px]">
             <img
-              src="../contact_us/virginia_meryland.jpeg"
+              src="/contact_us/virginia_meryland.png"
               alt="nnovative Cente"
               className=" w-60 h-40 rounded-lg shadow-md mb-2 items-center"
             />
