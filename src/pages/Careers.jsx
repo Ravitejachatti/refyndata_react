@@ -160,11 +160,14 @@ const Careers = () => {
                   ))}
                 </ul>
                 <div className="mt-6">
-                  <h3 className="text-2xl font-semibold mb-10">
+                  <h3 className="text-2xl font-semibold mb-5">
                     Apply now for this position:
-                  </h3>
+                  </h3><p>Sent your resume directly to: <br/>  <a href="mailto:example@example.com" className="mb-3 text-[#0079A0] ">Email: info@refyndata.com</a></p>
+                  
                   {/* <a href="mailto:kushwahagautam24@gmail.com">Send your resume at: <br/> <span className="">kushwahagautam24@gmail.com</span></a> */}
-                  <div>
+                  <div className="my-3">
+                  <p className="">OR:</p>
+                  <p>Fill the Form</p>
                     <form ref={formRef} onSubmit={handleSubmit} >
                       <div className="">
                         <input
@@ -247,11 +250,6 @@ const Careers = () => {
                       >
                         {isSubmitting ? 'Please wait for few seconds...' : 'Submit'}
                       </button>
-                      <div>
-                      <br></br>
-                      <h3 className="">OR</h3>
-                      <p>Sent your resume directly to: <br/>  <a href="mailto:example@example.com" className="mb-3 text-[#0079A0] ">Email: info@refyndata.com</a></p>
-                    </div>
                     </form>
                    
                   </div>

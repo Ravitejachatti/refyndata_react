@@ -1,7 +1,7 @@
 {
   "careers": [
     {
-      "name": "1.SENIOR SOFTWARE ENGINEER",
+      "name": "1. Senior Software Engineer",
       "location": "Clarksburg-MD",
       "responsibilities": [" Work with support teams to ensure that the Discovery tool has the appropriate access and permissions to capture configuration information ",
        " Perform day-to-day administration of the ServiceNow Service Mapping/Discovery tool, including mapping additional defined business services into the tool and updating discovery configurations for deeper network penetration ",
@@ -40,7 +40,7 @@
       ]
     },
      {
-      "name": "2.TECHNICAL PROJECT MANAGER",
+      "name": "2. Technical Project Manager",
       "location": "Clarksburg, MD, USA",
       "responsibilities": [" Manage Project Scope and Sprint scope progress, risk and issues, including documenting, communicating and facilitating status reports and action items.", 
       " Develop and distribute timely meeting minutes, to include track/manage action items and verify they are incorporated into the program schedule and that deliverables are met on time.",
@@ -69,7 +69,7 @@
       ]
     },
      {
-      "name": "3.DEVOPS ENGINEER",
+      "name": "3. Devops Engineer",
       "location": "Clarksburg, MD, USA",
       "responsibilities": [" DevOps Officer: Manages the DevOps implementation in an organization",
        " Release Manager: Helps in the integration of new features into existing features.",
@@ -166,7 +166,7 @@
       ]
     },
      {
-      "name": "5.SENIOR PEGA ENGINEER",
+      "name": "6. Senior Pega Engineer",
       "location": "Clarksburg, MD",
       "responsibilities": [" Perform BPM - PEGA PRPC and Java/J2EE Web Applications development and testing", " Develop BPM applications using Pega PRPC 6.x, HCIF, and Smart Dispute Frameworks",
       " Implement Pega Scrum and Agile Methodologies",
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "name": "6. SENIOR DATA SCIENTIST",
+      "name": "6. Senior Data Scientist",
       "location": "Clarksburg, MD",
       "responsibilities": [" Lead projects or small teams to unblock and advocate for ML excellence",
       " Adapt standard machine learning methods to leverage modern parallel environments", 

@@ -4,6 +4,7 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
 const logos = [
   { name_company: 'Client 1', logo: '/clients/amway.jpeg', alt: 'AMWAY', name: "AMWAY" },
   { name_company: 'Client 2', logo: '/clients/baptist.jpeg', alt: 'BAPTIST HEALTH CARE', name: "BAPTIST HEALTH CARE" },
@@ -44,14 +45,14 @@ const Clients = () => {
         <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
         </div>
         <div className="">
-          <h2 className="text-3xl font-bold mx-2"> Our Clients</h2>
+          <h2 className="text-3xl font-bold "> Our Clients</h2>
           <div className="flex-grow border-b border-gray-400"></div>
           {/* <hr className="border-b-2 border-gray-400 mx-auto w-32" /> */}
-          <p className=' lg:w-[62%] text-[16px] md:text-[17px] lg:text-[18px] py-3'>At Refyn Data, our clients are at the heart of everything we do. Partner with us for personalized solutions tailored to your business needs. Experience efficiency, reliability, and a workforce that propels your success forward.</p>
+          <p className=' lg:w-[100%] text-[16px] md:text-[17px] lg:text-[18px] py-3'>At Refyn Data, our clients are at the heart of everything we do. Partner with us for personalized solutions tailored to your business needs. Experience efficiency, reliability, and a workforce that propels your success forward.</p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 ">
           {logos.map((logo, index) => (
-            <div key={index} className="flex flex-col items-center justify-center  my-auto  p-3 md:p-4 lg:p-5">
+            <div key={index} className="flex flex-col items-center justify-center  right-0 bottom-0 shadow my-auto  p-3 md:p-4 lg:p-5">
                <div className="flex items-center justify-center h-full">
 
               <img src={logo.logo} alt={logo.alt} className="my-auto" />
