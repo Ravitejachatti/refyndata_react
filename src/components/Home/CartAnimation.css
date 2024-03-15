@@ -15,6 +15,7 @@
     color: #72727A;
     padding-top: 20px;
     padding-bottom: 40px;
+
   
   
   }
@@ -24,6 +25,7 @@
     grid-template-rows: repeat(2,minmax(auto,370px));
     justify-content: center;
     gap: 40px;
+    padding-bottom: 50px;
   }
   
   
@@ -59,10 +61,11 @@
       transform: translateY(100%); /* Initially hidden */
     }
     .span_con{
-      margin-bottom: -20px;
+      margin-bottom: -30px;
       font-size: 1.5rem;
       font-weight: 800;
       color:#0079A0; 
+      text-align: center;
     }
     .button_cart{
       background: #0079A0;
@@ -70,7 +73,7 @@
       border-style: none;
       border-radius: 6px;
       width: 100%;
-      margin-top: -10%;
+      margin-top: -20%;
       height: 30px;
       
       
@@ -120,6 +123,7 @@
     .serivce_text_on{
       font-weight: 700;
       font-size:40px;
+      
     }
     
     .cart_item:hover .background {
@@ -173,12 +177,21 @@
         
   
       }
+      .background_content{
+        display: flex;
+        gap: 20px;
+        
+      }
       .span_con{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        line-height: 20px;
       }
       .cart_text{
-        font-size: 0.8rem;
-        margin-top: -8%;
+        font-size: 0.7rem;
+        margin-top: 5px;
+        
+
+        
       }
       .item_image{
         width: 89px;
@@ -189,7 +202,7 @@
         height: 89px;
       }
       .button_cart{
-        margin-top: -5%;
+        
       }
   
   
@@ -198,8 +211,8 @@
     @media screen and (max-width: 900px) and (min-width: 800px){
       .Service_cart{
         gap: 15px;;
-        margin:5;
-        padding: 5;
+        margin:10px;
+        
       }
     }
 
@@ -212,20 +225,35 @@
         justify-content: center;
         gap: 10px;;
       }
+      .background_content{
+        
+        display: flex;
+        gap: 10px;
+        margin-top: 58%;
+      }
       .serivce_text_on{
-        top: 10px;
-        right: 15px;
-        font-size:20px !important;
+        top: 40px;
+        right: 10px;
+        font-size:18px !important;
         
   
       }
+      .mb_view{
+        top: 40px;
+        right: 20px; 
+        
+      }
       .span_con{
         font-size: 1rem;
-        margin-top: 8px;
+        line-height: 15px;
+        
+        
       }
       .cart_text{
         font-size: 0.6rem;
-        margin-top: -5%;
+        margin-top: 20%;
+        
+        
       }
       .item_image{
         width: 89px;
@@ -236,7 +264,7 @@
         height: 89px;
       }
       .button_cart{
-        margin-top: -25%;
+      
         font-size: 0.8rem;
       }
     }

@@ -4,7 +4,7 @@
   "services": [
     {
       "topic": "1. Consultation",
-      "image": "https://t4.ftcdn.net/jpg/05/31/01/29/240_F_531012995_eHfqtOwUMewFquhK0TbCqojNtDrxQPPq.jpg",
+      "image": "service_img/consultancy.jpg",
       "special_line": "Single or multiple, simple or complex, RefynData can take the guesswork out of your Project Management processes.",
         "special_line2": "",
       "description": {
@@ -21,7 +21,7 @@
     {
       "topic": "2. Application Development",
       "special_line": "Single or multiple, simple or complex, RefynData can take the guesswork out of your Project Management processes.",
-      "image": "service_img/application_development1.jpg",
+      "image": "service_img/application development.jpg",
         "special_line": "Do you have a challenging business requirement? Then chances are we have the best solution in hand, irrespective of how complex or simple it is.",
         "special_line2": "With our technological adeptness, we can help you:",
       "description": {
@@ -53,13 +53,13 @@
     },
     {
       "topic": "4. Big Data",
-      "image": "service_img/big data2.jpg",
+      "image": "service_img/big data.jpg",
        "special_line": "With big businesses come large volumes of data and complex data workflows. The larger the organization the greater is the need to manage, govern, and organize data volumes, both structured and unstructured.",
-       "special_line": "With us you can:",
+        "special_line2": "With us you can:",
       "description": {
-        "paragraph1": "RefynData uses a formidable mix of technological tools and data management practices, methodologies, and processes to come up with solutions that help you use data wisely. Our Data Management System works across a blend of digital and legacy platforms. With us you can:",
-        "paragraph2": "Second paragraph of service 2 description.",
-        "paragraph3": "Third paragraph of service 2 description."
+        "paragraph1": "RefynData uses a formidable mix of technological tools and data management practices, methodologies, and processes to come up with solutions that help you use data wisely. Our Data Management System works across a blend of digital and legacy platforms. ",
+        "paragraph2": "",
+        "paragraph3": ""
       },
       "points": [
         "1. Capture and store large amounts of data at low costs of investment.",
@@ -86,13 +86,13 @@
     },
     {
       "topic": "6. Mobile App Development",
-      "image": "service_img/mobile application development1.jpeg",
+      "image": "service_img/mobile app development.jpg",
       "special_line": "Business success is all about business performance and how well you leverage advancements in technology to take your company forward.",
       "special_line2": "The only thing we need from you is an understanding of what the app should deliver. We take care of everything else. We provide you with:",
       "description": {
         "paragraph1": "Education, e-commerce, lifestyle, utilities, travel, gaming – the list of business sectors is endless. So are the number of mobile application development platforms and software available to help you reach your goals.",
         "paragraph2": "At RefynData we don’t believe in sticking to one type of technology to simply get the job done. We use an amalgamation of the most feasible and versatile software to design the best solution that fits your need. iOS, Android, Windows – we are okay with them all. We are also okay with Hybrid and Web Apps.",
-        "paragraph3": "Third paragraph of service 2 description."
+        "paragraph3": ""
       },
       "points": [
         "1. A set of simplistic, user-friendly, yet appealing UI/UX Designs for you to choose from.",

@@ -77,20 +77,44 @@ A. git merge main (when you're in your working branch)
 - $ git branch -D new_branch
 - $ git push origin -delete new_branch# SIH_New_Railway_website
 
-# Jus have a glance on the website interfaces:
-![Alt Text](https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg?size=626&ext=jpg&ga=GA1.2.788017613.1695444954&semt=ais)
+--------------------------------------------------------------------
 
-![Alt Text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Gv5Nv7EJx8ciqOXEwQ_ZXWKEYViziWRg-Q&usqp=CAU)
-![Alt Text](./BrowserImage/1.png)
-![Alt Text](./BrowserImage/2.png)
-![Alt Text](./BrowserImage/3.png)
-![Alt Text](./BrowserImage/4.png)
+#guide for the maintainance
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-#clicking on the goto section "click me"  you will be navigated to the /passenger route. similarly for the security person entering the security code they will be navigated to the /security page and they will be like this.. they will have different interface on the basic of requirement. This is the sample interface, which we have kept same but will be different for both of them..
+## Getting Started
 
-![Alt Text](./BrowserImage/5.png)
-![Alt Text](./BrowserImage/1.png)
-![Alt Text](./BrowserImage/1.png)
-![Alt Text](./BrowserImage/1.png)
-![Alt Text](./BrowserImage/1.png)
-![Alt Text](./BrowserImage/1.png)
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

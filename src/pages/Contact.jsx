@@ -1,22 +1,12 @@
-// import React from 'react'
 
-// function Contact() {
-//   return (
-//     <div>
-//         <h1>contact</h1>
-      
-//     </div>
-//   )
-// }
-
-// export default Contact
 
 
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   return (
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto p-4 font-poppins ">
         <div className="mb-10">
           <h1 className="text-md font-bold">Home / Contact Us</h1>
         </div>
@@ -33,27 +23,29 @@ export default function Contact() {
         </div>
 
         {/* email and phone contacts */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 ">
           {/* Phone number */}
-          <div className="flex items-center">
+          <div className="flex items-center mx-[20px]">
             <img
               src="/contact_us/phone.png"
-              alt="Description of your img"
+              alt="phone_icon"
               width={16}
               height={16}
+              className="mb-3"
             />
 
-            <span className="ml-2">+1 301-591-0989 ext: 403</span>
+            <a href="tel:+1 301-591-0989" className="ml-2 mb-3">+1 301-591-0989 ext: 403</a>
           </div>
           {/* Email */}
-          <div className="flex items-center">
+          <div className="flex items-center mx-[20px]">
             <img
               src="/contact_us/email.png"
-              alt="Description of your img"
+              alt="email_icon"
               width={20}
               height={20}
+              className="mb-3"
             />
-            <span className="ml-2">info@refyndata.com</span>
+            <a href="mailto:example@example.com" className="ml-2 mb-3 ">info@refyndata.com</a>
           </div>
           {/* Empty column */}
           <div></div>
@@ -61,20 +53,26 @@ export default function Contact() {
 
        
         {/*  Address and location*/}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-20 mt-5">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 mt-5">
+
+          {/*Registered Office  */}
+          <Link to="https://maps.app.goo.gl/8VhdYJpt6cyVfLPn6" target="_blank" rel="noopener noreferrer">
+          <div className="mx-[30px]">
             <img
               src="../contact_us/virginia_meryland.jpeg"
               alt="nnovative Cente"
-              className=" w-60 h-40 rounded-lg shadow-md mb-2"
+              className=" w-60 h-40 rounded-lg shadow-md mb-2 items-center"
             />
             <p className="text-xl font-semibold">Registered Office:</p>
             <p className="text-sm font-semibold">Clarksburg, West Virginia</p>
-            <p className="text-sm">
+            <p className="text-sm mb-5">
             11504 ELKHORN DRIVE,CLARKSBURG-MD-20871{" "}
             </p>
-          </div>
-          <div>
+          </div></Link>
+
+          {/* Corporate Office: */}
+          <Link to="https://maps.app.goo.gl/qQoeapZDNDp2uduZ6" target="_blank" rel="noopener noreferrer">
+          <div className="mx-[30px]">
             <img
               src="/contact_us/cororate.png"
               alt="nnovative Cente"
@@ -82,11 +80,15 @@ export default function Contact() {
             />
             <p className="text-xl font-semibold">Corporate Office:</p>
             <p className="text-sm font-semibold">Herndon,Virginia</p>
-            <p className="text-sm">
+            <p className="text-sm mb-5">
             13800 Coppermine RD Suite #162,Herndon,VA-20171{" "}
             </p>
           </div>
-          <div>
+          </Link>
+
+          {/* Innovative Center: */}
+          <Link to="https://maps.app.goo.gl/m9CeNJ8Cj2sczYhu6" target="_blank" rel="noopener noreferrer">
+          <div className="mx-[30px]">
             <img
               src="/contact_us/visakhapatnam.png"
               alt="nnovative Cente"
@@ -99,9 +101,11 @@ export default function Contact() {
               Campus, Visakhapatnam, AP-530003{" "}
             </p>
           </div>
+          </Link>
         </div>
       </div>
 
   );
 }
+
 
