@@ -5,6 +5,10 @@
 import { useState, useRef } from "react";
 import careersData from "../components/data/careers.json";
 import axios from "axios";
+import { Link } from 'react-router-dom';
+import { IoMdCloudUpload } from "react-icons/io";
+
+
 
 const Careers = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -82,7 +86,7 @@ const Careers = () => {
   return (
     <div className="container mx-auto p-4 font-poppins ">
       <div className="mb-10">
-        <h1 className="text-md font-bold">Home / Careers</h1>
+      <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 lg:gap-20">
         <div className="col-span-1 md:col-span-1">
@@ -161,10 +165,10 @@ const Careers = () => {
                   </h3>
                   {/* <a href="mailto:kushwahagautam24@gmail.com">Send your resume at: <br/> <span className="">kushwahagautam24@gmail.com</span></a> */}
                   <div>
-                    <form ref={formRef} onSubmit={handleSubmit}>
-                      <div>
+                    <form ref={formRef} onSubmit={handleSubmit} >
+                      <div className="">
                         <input
-                          className=" px-5 py-[8px] mb-[24px] border rounded-md w-[100%]  md:w-[50%]"
+                          className=" px-5 py-[8px] mb-[24px] border rounded-md w-[100%]  md:w-[70%]"
                           type="text"
                           name="name"
                           placeholder="  Full Name "
@@ -176,7 +180,7 @@ const Careers = () => {
                       </div>
                       <div>
                         <input
-                          className="px-5 py-[8px] mb-[24px] border rounded-md w-[100%]  md:w-[50%]"
+                          className="px-5 py-[8px] mb-[24px] border rounded-md w-[100%]  md:w-[70%]"
                           type="number"
                           name="contact"
                           placeholder=" Contact "
@@ -188,7 +192,7 @@ const Careers = () => {
                       </div>
                       <div>
                         <input
-                          className="px-5 py-[8px]  mb-[24px] border rounded-md w-[100%]  md:w-[50%]"
+                          className="px-5 py-[8px]  mb-[24px] border rounded-md w-[100%]  md:w-[70%]"
                           type="email"
                           name="email"
                           placeholder=" Email "
@@ -200,7 +204,7 @@ const Careers = () => {
                       </div>
                       <div>
                         <input
-                          className=" px-5 py-[8px]  mb-[24px] border rounded-md w-[100%] md:w-[50%]"
+                          className=" px-5 py-[8px]  mb-[24px] border rounded-md w-[100%]  md:w-[70%]"
                           type="text"
                           name="qualification"
                           placeholder=" Highest Qualification "
@@ -210,12 +214,11 @@ const Careers = () => {
                           style={{ paddingLeft: '12px' }}
                         />
                       </div>
-                      <div className=" mb-10 ">
+                      <div className=" mb-10 text-white ">
                         <label
-                          className="py-[8px] px-2 mb-[10px] border w-[50%]  md:w-[20%] bg-[#0079A0] rounded-md   cursor-pointer inline-block"
+                          className=" mb-[10px] border w-[80%]  md:w-[40%] rounded-md   cursor-pointer "
                           htmlFor="fileInput"
                         >
-                          Upload your CV
                         </label>
                         <input
                           id="fileInput"
@@ -223,15 +226,15 @@ const Careers = () => {
                           name="file"
                           onChange={handleChange}
                           required
-                          className=" hidden"
+                          className=" bg-[#0079A0] rounded-md py-[8px] px-4 mb-6"
                         />
-                        <p className="text-gray-300"> Supported Formats: doc, docx, rtf, pdf, upto 2 MB</p>
+                        <p className="text-gray-400"> Supported Formats: doc, docx, rtf, pdf, upto 2 MB</p>
                       </div>
                       <div>
                         <textarea
-                          className="py-[6px] mb-[24px] border rounded-md w-[100%] md:w-[50%]"
+                          className="py-[6px] mb-[24px] border rounded-md w-[100%]  md:w-[70%]"
                           name="message"
-                          placeholder=" Message"
+                          placeholder=" Message "
                           value={formData.message}
                           onChange={handleChange}
                           style={{ paddingLeft: '12px' }}
@@ -239,7 +242,7 @@ const Careers = () => {
                       </div>
                       <button
                         type="submit"
-                        className="py-[10px] mb-[24px] border rounded-md w-[100%] md:w-[50%] bg-[#0079A0]"
+                        className="py-[10px] mb-[24px] border rounded-md w-[100%]  md:w-[70%] bg-[#0079A0] text-white"
                         disabled={isSubmitting}
                       >
                         {isSubmitting ? 'Please wait for few seconds...' : 'Submit'}

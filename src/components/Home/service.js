@@ -13,7 +13,7 @@ const scrollToTop = () => {
 const CartAnimation = () => {
   return (
     <div>
-      <div className="service_head_text font-roboto">
+      <div className="service_head_text font-poppins">
         <h1>We Expertise On This Fields</h1>
         <div className="service_sub_text">
           More than just services, we're your partner. We collaborate with you

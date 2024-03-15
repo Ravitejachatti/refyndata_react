@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const scrollToTop = () => {
@@ -10,20 +11,18 @@ const scrollToTop = () => {
 
 const Footer = () => {
   return (
-    <footer className="mt-12 py-14 z-100 bg-[#F2F5F8] font-poppins">
+    <footer className="mt-12 py-14 z-50 bg-[#F2F5F8] font-roboto ">
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-12 sm:gap-x-10 md:gap-x-20 lg:gap-x-[80px] px-10 md:px-10 lg:px-5">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-12 sm:gap-x-10 md:gap-x-20 lg:gap-x-[60px] px-10 md:px-10 lg:px-5">
           {/* Column 1 */}
           <div className="  mb-4 md:mb-0">
-          <Link to="/" onClick={scrollToTop}><h3 className=" text-2xl font-semibold mb-3">Refyndata</h3></Link>
+          <Link to="/" onClick={scrollToTop}><h3 className=" text-xl md:text-2xl font-semibold mb-3">Refyndata</h3></Link>
             <img
-              src="/footer/verify.png"
+              src="/footer/E-Verify_Logo-2x.png"
               alt="company_verification"
-              width={100}
-              height={50}
-              className=" mb-3 transform transition-transform hover:translate-y-[-5px] py-2"
+              className="h-10 mb-3 transform transition-transform hover:translate-y-[-5px] py-2"
             />
-            <p className="mb-3 text-sm transform transition-transform hover:translate-y-[-5px]">
+            <p className="mb-3  transform transition-transform hover:translate-y-[-5px]">
               With lots of unique blocks, you can easily build a page without
               coding. Build your next landing page.
             </p>
@@ -52,12 +51,13 @@ const Footer = () => {
           {/* Column 3 */}
           <div className="mb-4 md:mb-0 text-[#0B1320]">
             <h3 className="text-xl font-semibold mb-3">Contact</h3>
-            <a href="mailto:example@example.com" className="mb-3 inline-block transition-transform hover:-translate-y-1">Email: info@refyndata.com</a>
+           
+            <a href="tel:+1 301-591-0989" className="mb-2 md:mb-3 inline-block transition-transform hover:-translate-y-1 text-[15px] md:text-[16px]">Contact: +1 301-591-0989 ext: 403</a>
+            <br></br> 
+            <a href="mailto:example@example.com" className="text-[15px] md:text-[16px] mb-2 md:mb-3 inline-block transition-transform hover:-translate-y-1">Email: info@refyndata.com</a>
 
             <br></br>
-            <a href="tel:+1 301-591-0989" className="mb-3 inline-block transition-transform hover:-translate-y-1">Contact: +1 301-591-0989 ext: 403</a>
-            <br></br>
-            <a href="/contact" className="mb-3 inline-block transition-transform hover:-translate-y-1"> Write to Us
+            <a href="/contact" className="mb-2 md:mb-3 inline-block transition-transform hover:-translate-y-1 text-[15px] md:text-[16px]"> Write to Us
             </a>
           </div>
 
@@ -67,16 +67,16 @@ const Footer = () => {
             <div className="">
               <a
                 href="https://www.linkedin.com/in/refyn-d-47489b21/"
-                className=" block mb-3 transform transition-transform hover:translate-y-[-5px]"
-              >
-                 LinkedIn
+                className="inline-flex mb-3 transform transition-transform hover:translate-y-[-5px] "
+                target="_blank" rel="noopener noreferrer">
+                  <FaLinkedinIn  className="mr-2 my-auto" />LinkedIn 
               </a>
-              <a href="#" className=" block mb-3 transform transition-transform hover:translate-y-[-5px]">
+              {/* <a href="#" className=" block mb-3 transform transition-transform hover:translate-y-[-5px]">
                 Twitter
               </a>
               <a href="#" className="mb-3  block transform transition-transform hover:translate-y-[-5px]">
                 Facebook
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
