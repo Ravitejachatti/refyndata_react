@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <div className="container mx-auto p-4 font-poppins ">
+    <div className="container mx-auto p-4 font-poppins sm:px-3 md:px-5 lg:px-20">
       <div className="mb-10">
         <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
       </div>
@@ -62,7 +62,7 @@ export default function Contact() {
 
 
       {/*  Address and location*/}
-      <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 mt-5 ">
 
         {/*Registered Office  */}
         <Link to="https://maps.app.goo.gl/8VhdYJpt6cyVfLPn6" target="_blank" rel="noopener noreferrer">

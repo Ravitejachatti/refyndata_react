@@ -20,9 +20,9 @@ const Footer = () => {
             <img
               src="/footer/E-Verify_Logo-2x.png"
               alt="company_verification"
-              className="h-10 mb-3 transform transition-transform hover:translate-y-[-5px] py-2"
+              className="h-10 mb-3 "
             />
-            <p className="mb-3  transform transition-transform hover:translate-y-[-5px]">
+            <p className="mb-3">
               With lots of unique blocks, you can easily build a page without
               coding. Build your next landing page.
             </p>

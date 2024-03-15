@@ -84,7 +84,7 @@ const Careers = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 font-poppins ">
+    <div className="container mx-auto p-4 font-poppins sm:px-3 md:px-5 lg:px-20">
       <div className="mb-10">
       <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
       </div>
@@ -204,7 +204,7 @@ const Careers = () => {
                       </div>
                       <div>
                         <input
-                          className=" px-5 py-[8px]  mb-[24px] border rounded-md w-[100%]  md:w-[70%]"
+                          className=" px-5 py-[8px]  mb-[12px] border rounded-md w-[100%]  md:w-[70%]"
                           type="text"
                           name="qualification"
                           placeholder=" Highest Qualification "
