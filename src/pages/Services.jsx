@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import servicesData from '../components/data/services.json';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const [selectedService, setSelectedService] = useState(servicesData.services[0]);
@@ -9,9 +10,9 @@ const Services = () => {
   };
 
   return (
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto p-4 font-poppins">
         <div className="mb-10">
-          <h1 className="text-md font-bold">Home / Services</h1>
+        <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-[20px] lg:gap-[60px]">
 
@@ -32,13 +33,13 @@ const Services = () => {
             </div>
           </div>
           {/* Content (Right Column) */}
-          <div className="md:col-span-2 font-poppins ">
+          <div className="md:col-span-2  ">
             <div>
               <h2 className='text-3xl font-bold text-gray-800'>Services</h2>
               <p className="border-t border-gray-600 my-3"></p>
               <h3 className="text-2xl font-bold mb-2">{selectedService.topic}</h3>
               <p className='w-full font-regular font text-[18px]'><i>{selectedService.special_line}</i></p>
-              <img src={selectedService.image} alt={selectedService.topic} className="w-[500px] h-[400px] my-5 rounded-md" />
+              <img src={selectedService.image} alt={selectedService.topic} className="w-[600px] md:h-[400px] my-5 rounded-md" />
               <p className='w-full font-regular font md:text-lg'>{selectedService.description.paragraph1}</p>
               <br/>
               <p className='w-full font-regular font md:text-lg' >{selectedService.special_line2}</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function About() {
   const topicsAndDescriptions = [
@@ -39,7 +40,8 @@ function About() {
   return (
     <div className="container mx-auto p-4 font-poppins ">
                 <div className="mb-10">
-                    <h1 className="text-md font-bold">Home / About Us</h1>
+                    <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
+                    
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-[20px] lg:gap-x-[60px]">
                     {/* Table of Contents */}

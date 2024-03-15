@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function AboutUs() {
   return (
-    <section className="bg-[#F2F5F8] py-5 md:py-8 lg:py-12 font-roboto ">
+    <section className="bg-[#F2F5F8] py-5 md:py-8 lg:py-12 font-poppins ">
       <div className="container mx-auto">
         {/* About Us Heading */}
         <div className="text-center mb-8 px-50 pb-5">

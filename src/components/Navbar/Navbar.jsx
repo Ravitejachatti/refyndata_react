@@ -33,12 +33,15 @@ function Navbar() {
       </div>
       {/* Mobile menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
-        <Link to="/" onClick={closeMenu} className="hover:bg-gray-200 px-3 py-2 rounded-md">Home</Link>
-        <Link to="/about" onClick={closeMenu} className="hover:bg-gray-200 block px-3 py-2 rounded-md">About us</Link>
-        <Link to="/services" onClick={closeMenu} className="hover:bg-gray-200 block px-3 py-2 rounded-md">Services</Link>
-        <Link to="/careers" onClick={closeMenu} className="hover:bg-gray-200 block px-3 py-2 rounded-md">Careers</Link>
-        <Link to="/clients" onClick={closeMenu} className="hover:bg-gray-200 block px-3 py-2 rounded-md">Clients</Link>
-        <Link to="/contact" onClick={closeMenu} className="hover:bg-gray-200 block px-3 py-2 rounded-md">Contact us</Link>
+        <hr></hr>
+        <div className='mt-3'>
+        <Link to="/" onClick={closeMenu} className="hover:bg-gray-200 px-5 py-1 rounded-md">Home</Link>
+        <Link to="/about" onClick={closeMenu} className="hover:bg-gray-200 block px-5 py-1 rounded-md">About us</Link>
+        <Link to="/services" onClick={closeMenu} className="hover:bg-gray-200 block px-5 py-1 rounded-md">Services</Link>
+        <Link to="/careers" onClick={closeMenu} className="hover:bg-gray-200 block px-5 py-1 rounded-md">Careers</Link>
+        <Link to="/clients" onClick={closeMenu} className="hover:bg-gray-200 block px-5 py-1 rounded-md">Clients</Link>
+        <Link to="/contact" onClick={closeMenu} className="hover:bg-gray-200 block px-5 py-1 pb-3 rounded-md">Contact us</Link>
+    </div>
       </div>
     </nav>
   );

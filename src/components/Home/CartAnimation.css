@@ -162,7 +162,7 @@
   
   
   
-    @media screen and (max-width: 800px) and (min-width: 400px){
+    @media screen and (max-width: 800px) and (min-width: 460px){
       
       .Service_cart {
         display: grid;
@@ -217,14 +217,15 @@
     }
 
   
-    @media (max-width: 399px){
+    @media (hover: none) and (pointer: coarse) and (max-width: 450px) {
       .Service_cart {
         display: grid;
-        grid-template-columns: repeat(2,minmax(auto,150px));
-        grid-template-rows: repeat(3,minmax(auto,230px));
+        grid-template-columns: repeat(2, minmax(auto, 150px));
+        grid-template-rows: repeat(3, minmax(auto, 230px));
         justify-content: center;
-        gap: 10px;;
+        gap: 10px;
       }
+    
       .background_content{
         
         display: flex;
