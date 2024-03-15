@@ -88,7 +88,7 @@ const Careers = () => {
       <div className="mb-10">
       <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 lg:gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-[20px] lg:gap-x-[60px]">
         <div className="col-span-1 md:col-span-1">
 
           {/* table of content */}
@@ -160,11 +160,14 @@ const Careers = () => {
                   ))}
                 </ul>
                 <div className="mt-6">
-                  <h3 className="text-2xl font-semibold mb-10">
+                  <h3 className="text-2xl font-semibold mb-5">
                     Apply now for this position:
-                  </h3>
+                  </h3><p>Sent your resume directly to: <br/>  <a href="mailto:example@example.com" className="mb-3 text-[#0079A0] ">Email: info@refyndata.com</a></p>
+                  
                   {/* <a href="mailto:kushwahagautam24@gmail.com">Send your resume at: <br/> <span className="">kushwahagautam24@gmail.com</span></a> */}
-                  <div>
+                  <div className="my-3">
+                  <p className="">OR:</p>
+                  <p>Fill the Form</p>
                     <form ref={formRef} onSubmit={handleSubmit} >
                       <div className="">
                         <input
@@ -204,7 +207,7 @@ const Careers = () => {
                       </div>
                       <div>
                         <input
-                          className=" px-5 py-[8px]  mb-[12px] border rounded-md w-[100%]  md:w-[70%]"
+                          className=" px-5 py-[8px]  mb-[24px] border rounded-md w-[100%]  md:w-[70%]"
                           type="text"
                           name="qualification"
                           placeholder=" Highest Qualification "
@@ -215,11 +218,6 @@ const Careers = () => {
                         />
                       </div>
                       <div className=" mb-10 text-white ">
-                        <label
-                          className=" mb-[10px] border w-[80%]  md:w-[40%] rounded-md   cursor-pointer "
-                          htmlFor="fileInput"
-                        >
-                        </label>
                         <input
                           id="fileInput"
                           type="file"
@@ -245,13 +243,8 @@ const Careers = () => {
                         className="py-[10px] mb-[24px] border rounded-md w-[100%]  md:w-[70%] bg-[#0079A0] text-white"
                         disabled={isSubmitting}
                       >
-                        {isSubmitting ? 'Please wait for few seconds...' : 'Submit'}
+                        {isSubmitting ? 'Submit' : 'Submit'}
                       </button>
-                      <div>
-                      <br></br>
-                      <h3 className="">OR</h3>
-                      <p>Sent your resume directly to: <br/>  <a href="mailto:example@example.com" className="mb-3 text-[#0079A0] ">Email: info@refyndata.com</a></p>
-                    </div>
                     </form>
                    
                   </div>
