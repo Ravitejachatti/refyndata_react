@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import { FaLinkedin } from "react-icons/fa";
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -69,7 +70,8 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/refyn-d-47489b21/"
                 className="inline-flex mb-3 transform transition-transform hover:translate-y-[-5px] "
                 target="_blank" rel="noopener noreferrer">
-                  <FaLinkedinIn  className="mr-2 my-auto" />LinkedIn 
+                  <FaLinkedin className="mr-2 my-auto text-[#0A66C2]"/>LinkedIn 
+                  
               </a>
               {/* <a href="#" className=" block mb-3 transform transition-transform hover:translate-y-[-5px]">
                 Twitter

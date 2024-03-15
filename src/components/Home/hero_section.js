@@ -13,7 +13,7 @@ const HeroSection = () => {
           </div>
           <p className="text-[15px] md:text-xl mb-6 w-[100%] md:w-[75%] font-roboto ">Let's face it, traditional IT can be slow and fragmented. Refyn Data disrupts this by uniting specialists – analysts, developers, and testers – in one dynamic hub. Imagine your project needs met swiftly, communication flowing effortlessly, and solutions delivered with exceptional quality. Experience the Refyn Data difference.</p>
          
-          <Link to="/contact" > <button className="bg-[#0079A0] hover:shadow-lg text-white font-bold py-2 px-4 rounded transform transition-transform hover:translate-y-[-2px]">
+          <Link to="/contact" > <button className=" text-center bg-[#0079A0] hover:shadow-lg text-white font-bold py-3 px-4 rounded transform transition-transform hover:translate-y-[-2px]">
             Contact 
           </button></Link>
         </div>

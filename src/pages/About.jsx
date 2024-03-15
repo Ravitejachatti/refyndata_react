@@ -63,7 +63,7 @@ function About() {
                     <div className="col-span-2 md:col-span-2 lg:col-span-2">
                         <h3 className="text-3xl font-bold">About Us</h3>
                         <div className="border-t border-gray-600 my-4"></div>
-                        <p>Refyn Data empowers businesses with the perfect IT talent and data-driven solutions, offering unbeatable value for both government and private clients. Our expert consultants combine top-notch technical skills with deep industry knowledge, and go beyond mere project delivery. We become trusted partners, tailoring solutions to your specific needs and project environment. Think of us as your secret weapon, unlocking hidden potential and propelling your business forward.</p>
+                        <p>Refyn Data empowers businesses with the perfect IT talent and data-driven solutions, offering unbeatable value for both government and private clients. Our expert consultants combine top-notch technical skills with deep industry knowledge, and go beyond mere project delivery. We become trusted partners, tailoring solutions to your specific needs and project environment. Think of us as your secret weapon, unlocking hidden potential and propelling your business forward.</p><br/>
                         {topicsAndDescriptions.map(({ topic, description }, index) => (
                             <div key={index} className="mb-6"> 
                                 <h2 className="text-xl font-semibold mb-2">{topic}</h2>
