@@ -11,19 +11,29 @@ export default function Contact() {
   return (
     <div className="container mx-auto p-4 font-poppins sm:px-3 md:px-5 lg:px-20">
       <div className="mb-10">
-        <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
+        <h1 className="text-md font-bold"><Link to="/" >Home / Contact</Link></h1>
       </div>
-      <div className="mb-10">
-        <div className="mb-4">
+      <div className="mb-4">
           <h1 className="text-3xl font-bold">Contact Us</h1>
           <div className="border border-gray-300 my-2"></div>
-        </div>
+          <div className="mb-5">
+      
+        
         <p className="text-lg">
           Begin the Dialogue<br></br>
           Thank you for reaching out to us. Please complete the email form,
           submit it, and we will get back to you at our earliest convenience.
         </p>
       </div>
+        </div>
+        <a href="tel:+1 301-591-0989" className="flex items-center ml-2 mb-3">
+            <FaPhoneVolume className="mr-2" />
+            +1 301-591-0989 ext: 403
+          </a>
+           <a href="mailto:example@example.com" className="flex items-center ml-2 mb-3">
+      <MdEmail className="mr-2" />
+      info@refyndata.com
+    </a>
 
       {/* email and phone contacts */}
       <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 ">
@@ -36,10 +46,7 @@ export default function Contact() {
               height={16}
               className="mb-3"
             /> */}
-          <a href="tel:+1 301-591-0989" className="flex items-center ml-2 mb-3">
-            <FaPhoneVolume className="mr-2" />
-            +1 301-591-0989 ext: 403
-          </a>
+          
         </div>
         {/* Email */}
         <div className="flex items-center mx-[20px]">
@@ -50,10 +57,7 @@ export default function Contact() {
             height={20}
             className="mb-3"
           /> */}
-         <a href="mailto:example@example.com" className="flex items-center ml-2 mb-3">
-      <MdEmail className="mr-2" />
-      info@refyndata.com
-    </a>
+        
 
         </div>
         {/* Empty column */}
@@ -112,6 +116,8 @@ export default function Contact() {
           </div>
         </Link>
       </div>
+      
+      
     </div>
 
   );
