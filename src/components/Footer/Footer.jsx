@@ -12,7 +12,7 @@ const scrollToTop = () => {
 
 const Footer = () => {
   return (
-    <footer className="mt-12 py-14 z-50 bg-[#F2F5F8] font-roboto ">
+    <footer className="mt-12 ml-10 py-14 z-50 bg-[#F2F5F8] font-roboto ">
       <div className="container mx-auto">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-12 sm:gap-x-10 md:gap-x-20 lg:gap-x-[60px] px-10 md:px-10 lg:px-5">
           {/* Column 1 */}

@@ -42,7 +42,7 @@ const Clients = () => {
   return (
       <div className="container mx-auto p-4 font-poppins sm:px-3 md:px-5 lg:px-20">
         <div className="mb-10">
-        <h1 className="text-md font-bold"><Link to="/" >Home / About Us</Link></h1>
+        <h1 className="text-md font-bold"><Link to="/" >Home / Client</Link></h1>
         </div>
         <div className="">
           <h2 className="text-3xl font-bold "> Our Clients</h2>

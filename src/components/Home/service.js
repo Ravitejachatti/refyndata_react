@@ -1,164 +1,220 @@
-// refyndata_react/src/CartAnimation.css
 import React from "react";
-import { Link } from 'react-router-dom';
-import "./CartAnimation.css"; // refyndata_react/src/components/Home/CartAnimation.css
+import { Link } from "react-router-dom";
+import "./flipanimation.css"; // refyndata_react/src/components/Home/CartAnimation.css
 
 const scrollToTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth' // Optional, adds smooth scrolling animation
+    behavior: "smooth", // Optional, adds smooth scrolling animation
   });
 };
 
 const CartAnimation = () => {
   return (
     <div>
-      <div className="service_head_text font-poppins">
-        <h1>We Expertise On This Fields</h1>
-        <div className="service_sub_text">
+      <div className="-10 font-poppins text-center">
+        <h1 className="font-bold lg:text-3xl md:text-2xl py-2 mt-5">
+          We Expertise On This Fields
+        </h1>
+        <div className="pb-2">
           More than just services, we're your partner. We collaborate with you
-          to <br /> understand your unique needs and deliver customized
-          solutions that <br /> drive real results.
+          to understand your unique needs and deliver customized <br />{" "}
+          solutions that drive real results.
         </div>
       </div>
 
       {/* Consultancy */}
-      <div className="Service_cart">
-        <div className="cart_item">
-          <div className="content">
-            <div className="background_content">
-              <span className="span_con"> Consultancy</span>
-              <p className="cart_text">
-                Unlock strategic business insights to transform your
-                organization's performance with expert consultation.{" "}
-              </p>
-              <Link to="/services" onClick={scrollToTop}><button className="button_cart">More...</button></Link>  
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:gap-7 lg:gap-10 mx-[30px] mx-[65px] md:mx-[60px] lg:mx-[200px]">
+        {/* first cart */}
+        <div class="scene">
+          <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
+            <div className="card rounded-sm">
+              <div className="card-face front relative">
+                {/* Image as a background covering the whole card */}
+                <img
+                  src="./home_image/service_image/consultation.png"
+                  alt="Service"
+                  className="rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                />
+                {/* Text overlay with semi-transparent background for readability */}
+                <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
+                  <span class="text-white text-xl bg-black bg-opacity-50 w-full text-center py-2 rounded-[10px]">
+                    consultancy
+                  </span>
+                </div>
+              </div>
+              <div className="card-face back flex justify-center items-center">
+                <h3 class="text-xl font-bold">Consultancy</h3>
+                <p className="px-5 py-2">
+                  Unlock strategic business insights to transform your
+                  organization's performance with expert consultation.
+                </p>
+                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                  More..
+                </button>
+              </div>
             </div>
           </div>
-          <div className="background"></div>
-          <img
-            className="item_images"
-            src="home_image/service_image/consultation.png"
-            alt="consultation"
-          />
-
-          <p className="serivce_text_on">Consultancy</p>
         </div>
 
-        {/* Application Development */}
-        <div className="cart_item">
-          <div className="content">
-            <div className="background_content">
-              <span className="span_con"> Application Development</span>
-              <p className="cart_text">
-              Expert application development for seamless user experiences and optimal performance.{" "}
-              </p>
-              <Link to="/services" onClick={scrollToTop}><button className="button_cart">More...</button></Link>  
+        <div class="scene">
+          <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
+            <div className="card rounded-sm">
+              <div className="card-face front relative">
+                {/* Image as a background covering the whole card */}
+                <img
+                  src="./home_image/service_image/mobile_development.png"
+                  alt="Service"
+                  className="rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                />
+                {/* Text overlay with semi-transparent background for readability */}
+                <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
+                  <span class="text-white text-xl bg-black bg-opacity-50 w-full text-center py-2 rounded-[10px]">
+                    Mobile App Development
+                  </span>
+                </div>
+              </div>
+              <div className="card-face back flex justify-center items-center">
+                <h3 class="text-xl font-bold ">
+                  Mobile App <br></br> Development
+                </h3>
+                <p className="px-5 py-2">
+                  Creating innovative, user-friendly mobile applications for
+                  seamless experiences
+                </p>
+                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                  More...
+                </button>
+              </div>
             </div>
           </div>
-          <div className="background"></div>
-          <img
-            className="item_image"
-            src="home_image/service_image/application_development.png"
-            alt="consultation"
-          />
-
-          <p className="serivce_text_on">Application Development</p>
         </div>
-
-        {/* Quality Analysis */}
-        <div className="cart_item">
-          <div className="content">
-            <div className="background_content">
-              <span className="span_con"> Project Management</span>
-              <p className="cart_text">
-              We identify opportunities for the improvement of your entire project management process .{" "}
-              </p>
-              <Link to="/services" onClick={scrollToTop}><button className="button_cart">More...</button></Link>  
+        <div class="scene">
+          <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
+            <div className="card rounded-sm ">
+              <div className="card-face front relative">
+                {/* Image as a background covering the whole card */}
+                <img
+                  src="./home_image/service_image/project_management.png"
+                  alt="Service"
+                  className="rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                />
+                {/* Text overlay with semi-transparent background for readability */}
+                <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
+                  <span class="text-white text-xl bg-black bg-opacity-50 w-full text-center py-2 rounded-[10px]">
+                    Project Management
+                  </span>
+                </div>
+              </div>
+              <div className="card-face back flex justify-center items-center">
+                <h3 class="text-xl font-bold"> Project Management</h3>
+                <p className="px-5 py-2">
+                  {" "}
+                  We identify opportunities for the improvement of your entire
+                  project management process .
+                </p>
+                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                  More...
+                </button>
+              </div>
             </div>
           </div>
-          <div className="background"></div>
-          <img
-            className="item_image"
-            src="home_image/service_image/project_management.png"
-            alt="consultation"
-          />
-
-          <p className="serivce_text_on">Project Management</p>
         </div>
-        {/* Big Data */}
-        <div className="cart_item">
-          <div className="content">
-            <div className="background_content">
-              <span className="span_con"> Big Data</span>
-              <p className="cart_text">
-              Harness big data for actionable insights and strategic decision-making{" "}
-              </p>
-              <Link to="/services" onClick={scrollToTop}><button className="button_cart">More...</button></Link>  
+        <div class="scene">
+          <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
+            <div className="card rounded-sm">
+              <div className="card-face front relative">
+                {/* Image as a background covering the whole card */}
+                <img
+                  src="./home_image/service_image/big_data.png"
+                  alt="Service"
+                  className="rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                />
+                {/* Text overlay with semi-transparent background for readability */}
+                <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
+                  <span class="text-white text-xl bg-black bg-opacity-50 w-full text-center py-2 rounded-[10px]">
+                    Big Data
+                  </span>
+                </div>
+              </div>
+              <div className="card-face back flex justify-center items-center">
+                <h3 class="text-xl font-bold">Big Data</h3>
+                <p className="px-5 py-2">
+                  Harness big data for actionable insights and strategic
+                  decision-making
+                </p>
+                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                  More...
+                </button>
+              </div>
             </div>
           </div>
-          <div className="background"></div>
-          <img
-            className="item_image"
-            src="home_image/service_image/big_data.png"
-            alt="consultation"
-          />
-
-          <p className="serivce_text_on"   >Big Data</p>
         </div>
-
-        {/* Business Analysis */}
-        <div className="cart_item">
-          <div className="content">
-            <div className="background_content">
-              <span className="span_con"> Business 
-Analysis</span>
-              <p className="cart_text">
-              Business analysis uncovers insights for strategic planning and performance improvement.{" "}
-              </p>
-              <Link to="/services" onClick={scrollToTop}><button className="button_cart">More...</button></Link>  
+        <div class="scene">
+          <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
+            <div className="card  rounded-sm">
+              <div className="card-face front relative">
+                {/* Image as a background covering the whole card */}
+                <img
+                  src="./home_image/service_image/business_analysis.png"
+                  alt="Service"
+                  className=" rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                />
+                {/* Text overlay with semi-transparent background for readability */}
+                <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
+                  <span class="text-white text-xl bg-black bg-opacity-50 w-full text-center py-2 rounded-[10px]">
+                    Business Analysis
+                  </span>
+                </div>
+              </div>
+              <div className="card-face back flex justify-center items-center">
+                <h3 class="text-xl font-bold">Business Analysis</h3>
+                <p className="px-5 py-2">
+                  Business analysis uncovers insights for strategic planning and
+                  performance improvement.
+                </p>
+                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                  More...
+                </button>
+              </div>
             </div>
           </div>
-          <div className="background"></div>
-          
-          <img
-            className="item_image"
-            src="home_image/service_image/business_analysis.png"
-            alt="consultation"
-          />
-
-          <p className="serivce_text_on">Business <br></br>
-Analysis</p>
-          
-          
-          
         </div>
-
-        {/* Mobile App Development */}
-        <div className="cart_item">
-          <div className="content">
-            <div className="background_content">
-              <span className="span_con"> Mobile App
-Development </span>
-              <p className="cart_text">
-              Creating innovative, user-friendly mobile applications for seamless experiences{" "}
-              </p>
-              <Link to="/services" onClick={scrollToTop}><button className="button_cart">More...</button></Link>  
+        <div class="scene">
+          <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
+            <div className="card ">
+              <div className="card-face front relative">
+                {/* Image as a background covering the whole card */}
+                <img
+                  src="./home_image/service_image/application_development.png"
+                  alt="Service"
+                  className=" rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                />
+                {/* Text overlay with semi-transparent background for readability */}
+                <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
+                  <span class="text-white text-xl bg-black bg-opacity-50 w-full text-center py-2 rounded-[10px]">
+                    Application Development
+                  </span>
+                </div>
+              </div>
+              <div className="card-face back flex justify-center items-center">
+                <h3 class="text-xl font-bold">
+                  Application <br></br> Development
+                </h3>
+                <p className="px-5 py-2">
+                  We identify opportunities for the improvement of your entire
+                  project management process .
+                </p>
+                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                  More...
+                </button>
+              </div>
             </div>
           </div>
-          <div className="background"></div>
-          <img
-            className="item_image"
-            src="home_image/service_image/mobile.png"
-            alt="consultation"
-          />
-
-          <p className="serivce_text_on">Mobile App
-Development</p>
         </div>
       </div>
     </div>
   );
 };
 
-export default CartAnimation;
+export default CartAnimation;
