@@ -8,9 +8,15 @@ module.exports = {
       roboto:["Roboto","sans-serif"],
       grotesk:["Space Grotesk","sans-serif"],
       poppins:["Poppins","sans-serif"]
-
-
     },
+    screens:{
+      'sm': '640px',
+      'md': '768px',
+      'pro':'900px',
+      'lg': '1060px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    }
   },
   plugins: [],
 }

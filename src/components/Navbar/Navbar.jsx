@@ -14,14 +14,14 @@ function Navbar() {
     <nav className="bg-white text-[#0079A0] font-bold shadow sticky top-0 z-10">
       <div className="container mx-auto px-4 py-5 flex   items-center justify-between">
         <Link to="/" onClick={closeMenu} className="flex flex-col md: items-center">
-          <img src="/logos/refyndata.svg" alt="refyndata-logo" className="h-12 md:display-inline" />
+          <img src="/logos/refyndata.svg" alt="refyndata-logo" className="h-8 md:h-10 lg:h-12 md:display-inline" />
           <div className={`md:block ${isOpen ? 'hidden' : 'block'}  md:hidden `}>
-          <img  className="w-[140px] h-[30px] pl-10"src="/footer/E-Verify_Logo-2x.png" alt="" />
+
 
           </div>
           
         </Link>
-        
+        <img  className="w-[80px]  md:w-[100px] lg:w-[140px] lg:h-[30px] mt-1 pl-5 lg:ml-[-50px]"src="/footer/E-Verify_Logo-2x.png" alt="E-verify" />
 
         <div className="hidden md:flex md:space-x-1 lg:space-x-4">
           <Link to="/" className="hover:bg-gray-200 px-2 lg:px-3 py-2 rounded-md">Home</Link>
@@ -30,7 +30,6 @@ function Navbar() {
           <Link to="/careers" className="hover:bg-gray-200 px-2 lg:px-3 py-2 rounded-md">Careers</Link>
           <Link to="/clients" className="hover:bg-gray-200 px-2 lg:px-3 py-2 rounded-md">Clients</Link>
           <Link to="/contact" className="hover:bg-gray-200 px-2 lg:px-3 py-2 rounded-md">Contact us</Link>
-          <img  className="w-[140px] h-[30px] mt-1 pl-5"src="/footer/E-Verify_Logo-2x.png" alt="" />
         </div>
         {/* Hamburger icon */}
         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden focus:outline-none">

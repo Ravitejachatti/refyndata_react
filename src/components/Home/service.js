@@ -12,7 +12,7 @@ const scrollToTop = () => {
 const CartAnimation = () => {
   return (
     <div>
-      <div className="-10 font-poppins text-center">
+      <div className="py-10 font-poppins text-center">
         <h1 className="font-bold lg:text-3xl md:text-2xl py-2 mt-5">
           We Expertise On This Fields
         </h1>
@@ -24,17 +24,17 @@ const CartAnimation = () => {
       </div>
 
       {/* Consultancy */}
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:gap-7 lg:gap-10 mx-[30px] mx-[65px] md:mx-[60px] lg:mx-[200px]">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:gap-7 lg:gap-10  mx-[65px] md:mx-[20px] pro:mx-[100px] lg:mx-[200px]">
         {/* first cart */}
         <div class="scene">
           <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
-            <div className="card rounded-sm">
-              <div className="card-face front relative">
+            <div className="card rounded-sm z-100   shadow-2xl">
+              <div className="card-face front relative ">
                 {/* Image as a background covering the whole card */}
                 <img
                   src="./home_image/service_image/consultation.png"
                   alt="Service"
-                  className="rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                  className="rounded-[10px] w-[100%] h-[100%] object-cover absolute top-0 left-0 z-0"
                 />
                 {/* Text overlay with semi-transparent background for readability */}
                 <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
@@ -49,9 +49,9 @@ const CartAnimation = () => {
                   Unlock strategic business insights to transform your
                   organization's performance with expert consultation.
                 </p>
-                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
-                  More..
-                </button>
+                <Link to="/services" > <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                  More...
+                </button></Link>
               </div>
             </div>
           </div>
@@ -59,13 +59,13 @@ const CartAnimation = () => {
 
         <div class="scene">
           <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
-            <div className="card rounded-sm">
+            <div className="card rounded-sm z-100  shadow-2xl">
               <div className="card-face front relative">
                 {/* Image as a background covering the whole card */}
                 <img
                   src="./home_image/service_image/mobile_development.png"
                   alt="Service"
-                  className="rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                  className="rounded-[10px] w-[100%] h-[100%] object-cover absolute top-0 left-0 z-0"
                 />
                 {/* Text overlay with semi-transparent background for readability */}
                 <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
@@ -82,22 +82,22 @@ const CartAnimation = () => {
                   Creating innovative, user-friendly mobile applications for
                   seamless experiences
                 </p>
-                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                <Link to="/services" > <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
                   More...
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>
         </div>
         <div class="scene">
           <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
-            <div className="card rounded-sm ">
+            <div className="card rounded-sm z-100  shadow-2xl">
               <div className="card-face front relative">
                 {/* Image as a background covering the whole card */}
                 <img
                   src="./home_image/service_image/project_management.png"
                   alt="Service"
-                  className="rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                  className="rounded-[10px] w-[100%] h-[100%] object-cover absolute top-0 left-0 z-0"
                 />
                 {/* Text overlay with semi-transparent background for readability */}
                 <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
@@ -113,22 +113,22 @@ const CartAnimation = () => {
                   We identify opportunities for the improvement of your entire
                   project management process .
                 </p>
-                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                <Link to="/services" > <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
                   More...
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>
         </div>
         <div class="scene">
           <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
-            <div className="card rounded-sm">
+            <div className="card rounded-sm z-100  shadow-2xl">
               <div className="card-face front relative">
                 {/* Image as a background covering the whole card */}
                 <img
                   src="./home_image/service_image/big_data.png"
                   alt="Service"
-                  className="rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                  className="rounded-[10px] w-[100%] h-[100%] object-cover absolute top-0 left-0 z-0"
                 />
                 {/* Text overlay with semi-transparent background for readability */}
                 <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
@@ -143,22 +143,22 @@ const CartAnimation = () => {
                   Harness big data for actionable insights and strategic
                   decision-making
                 </p>
-                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                <Link to="/services" > <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
                   More...
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>
         </div>
         <div class="scene">
           <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
-            <div className="card  rounded-sm">
+            <div className="card  rounded-sm z-100  shadow-2xl">
               <div className="card-face front relative">
                 {/* Image as a background covering the whole card */}
                 <img
                   src="./home_image/service_image/business_analysis.png"
                   alt="Service"
-                  className=" rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                  className=" rounded-[10px] w-[100%] h-[100%] object-cover absolute top-0 left-0 z-0"
                 />
                 {/* Text overlay with semi-transparent background for readability */}
                 <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
@@ -173,22 +173,23 @@ const CartAnimation = () => {
                   Business analysis uncovers insights for strategic planning and
                   performance improvement.
                 </p>
-                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                <Link to="/services" > <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
                   More...
-                </button>
+                </button></Link>
+               
               </div>
             </div>
           </div>
         </div>
         <div class="scene">
           <div className="w-[250px] h-[225px] md:w-[312px] md:h-[290px]">
-            <div className="card ">
+            <div className="card z-100  shadow-2xl">
               <div className="card-face front relative">
                 {/* Image as a background covering the whole card */}
                 <img
                   src="./home_image/service_image/application_development.png"
                   alt="Service"
-                  className=" rounded-[10px] w-full h-full object-cover absolute top-0 left-0 z-0"
+                  className=" rounded-[10px] w-[100%] h-[100%] object-cover absolute top-0 left-0 z-0"
                 />
                 {/* Text overlay with semi-transparent background for readability */}
                 <div class="absolute bottom-0 left-0 w-full flex justify-center items-end">
@@ -205,9 +206,9 @@ const CartAnimation = () => {
                   We identify opportunities for the improvement of your entire
                   project management process .
                 </p>
-                <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+                <Link to="/services" > <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
                   More...
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>

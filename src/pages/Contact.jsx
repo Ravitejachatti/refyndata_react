@@ -21,19 +21,10 @@ export default function Contact() {
         
         <p className="text-lg">
           Begin the Dialogue<br></br>
-          Thank you for reaching out to us. Please complete the email form,
-          submit it, and we will get back to you at our earliest convenience.
+          Thank you for reaching out to us. If you have any queries please reach out to us through email, phone, social medias or any of the locations.
         </p>
       </div>
         </div>
-        <a href="tel:+1 301-591-0989" className="flex items-center ml-2 mb-3">
-            <FaPhoneVolume className="mr-2" />
-            +1 301-591-0989 ext: 403
-          </a>
-           <a href="mailto:example@example.com" className="flex items-center ml-2 mb-3">
-      <MdEmail className="mr-2" />
-      info@refyndata.com
-    </a>
 
       {/* email and phone contacts */}
       <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 ">
@@ -66,11 +57,11 @@ export default function Contact() {
 
 
       {/*  Address and location*/}
-      <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 mt-5 ">
+      <div className="grid grid-cols-1 md:grid-cols-3  md:gap-x-4 lg:gap-x-20 my-5 md:px-2 lg:px-0">
 
         {/*Registered Office  */}
         <Link to="https://maps.app.goo.gl/8VhdYJpt6cyVfLPn6" target="_blank" rel="noopener noreferrer">
-          <div className="mx-[30px]">
+          <div className="mx-[10px] lg:mx-[30px]">
             <img
               src="/contact_us/virginia_meryland.png"
               alt="nnovative Cente"
@@ -85,7 +76,7 @@ export default function Contact() {
 
         {/* Corporate Office: */}
         <Link to="https://maps.app.goo.gl/qQoeapZDNDp2uduZ6" target="_blank" rel="noopener noreferrer">
-          <div className="mx-[30px]">
+          <div className="mx-[10px] lg:mx-[30px]">
             <img
               src="/contact_us/cororate.png"
               alt="nnovative Cente"
@@ -101,7 +92,7 @@ export default function Contact() {
 
         {/* Innovative Center: */}
         <Link to="https://maps.app.goo.gl/m9CeNJ8Cj2sczYhu6" target="_blank" rel="noopener noreferrer">
-          <div className="mx-[30px]">
+          <div className="mx-[10px] lg:mx-[30px]">
             <img
               src="/contact_us/visakhapatnam.png"
               alt="nnovative Cente"
@@ -116,8 +107,15 @@ export default function Contact() {
           </div>
         </Link>
       </div>
-      
-      
+      <div className="mx-[10px] lg:mx-[30px]">
+      <a href="tel:+1 301-591-0989" className="flex items-center mb-3">
+            <FaPhoneVolume className="mr-2" />Phone:
+            +1 301-591-0989 ext: 403
+          </a>
+           <a href="mailto:example@example.com" className="flex items-center  mb-3">
+      <MdEmail className="mr-2" />Email:
+      info@refyndata.com
+    </a></div>
     </div>
 
   );
