@@ -84,7 +84,7 @@ const Careers = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 font-poppins sm:px-3 md:px-5 lg:px-20">
+    <div className="container mx-auto p-4 font-poppins sm:px-3 md:px-5 lg:px-5">
       <div className="mb-10">
       <h1 className="text-md font-bold"><Link to="/" >Home / Career</Link></h1>
       </div>

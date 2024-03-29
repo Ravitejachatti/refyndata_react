@@ -12,17 +12,17 @@ const scrollToTop = () => {
 
 const Footer = () => {
   return (
-    <footer className="mt-12 ml-10 py-14 z-50 bg-[#F2F5F8] font-roboto ">
+    <footer className="mt-12 md:pl-10 py-10 z-50 bg-[#F2F5F8] font-poppins ">
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-12 sm:gap-x-10 md:gap-x-20 lg:gap-x-[60px] px-10 md:px-10 lg:px-5">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-12 sm:gap-x-10 md:gap-x-20 lg:gap-x-[80px] px-10 md:px-10 lg:px-5">
           {/* Column 1 */}
           <div className="  mb-4 md:mb-0">
           <Link to="/" onClick={scrollToTop}><h3 className=" text-xl md:text-2xl font-semibold mb-3">Refyndata</h3></Link>
-            <img
+            {/* <img
               src="/footer/E-Verify_Logo-2x.png"
               alt="company_verification"
               className="h-8 md:h-10 mb-3 "
-            />
+            /> */}
             <p className="mb-3">
               With lots of unique blocks, you can easily build a page without
               coding. Build your next landing page.

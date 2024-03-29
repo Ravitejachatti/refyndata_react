@@ -10,7 +10,7 @@ const Services = () => {
   };
 
   return (
-      <div className="container mx-auto p-4 font-poppins lg:px-20">
+      <div className="container mx-auto p-4 font-poppins lg:px-5">
         <div className="mb-10">
         <h1 className="text-md font-bold"><Link to="/" >Home / Service</Link></h1>
         </div>
@@ -38,7 +38,7 @@ const Services = () => {
               <h2 className='text-3xl font-bold text-gray-800'>Services</h2>
               <p className="border-t border-gray-600 my-3"></p>
               <h3 className="text-2xl font-bold mb-2">{selectedService.topic}</h3>
-              <p className='w-full font-regular font text-[18px]'><i>{selectedService.special_line}</i></p>
+              <p className='w-full font-regular font text-[17px] mb-5'>{selectedService.special_line}</p>
               {/* <img src={selectedService.image} alt={selectedService.topic} className="w-[600px] md:h-[400px] my-8 rounded-md" /> */}
               <p className='w-full font-regular font md:text-lg'>{selectedService.description.paragraph1}</p>
               <br/>
