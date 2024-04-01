@@ -13,7 +13,7 @@ const HeroSection = () => {
           </h1>
           <div className="md:hidden mx=10">
             <img
-              src="/home_image/Hero_section/Project_r.svg"
+              src="/home_image/Hero_section/hero_section.svg"
               alt="UsRefyndataHero"
               className="rounded-[10px] md:w-[100%] lg:w-[90%] h-auto mx-auto ml-[-30] py-5"
             />
@@ -35,7 +35,7 @@ const HeroSection = () => {
         {/* Column 2 */}
         <div className="md:w-2/5 hidden md:block">
           <img
-            src="/home_image/Hero_section/Project_r.svg"
+            src="/home_image/Hero_section/hero_section.svg"
             alt="refyndata"
             // Adjust the image size here for larger screens
             className=" ml-[50px] rounded-[10px] w-[200px] h-[100px] md:w-[400px] md:h-[410px] lg:w-[600px] lg:h-[300px] xl:w-[700px] xl:h-[350px] mx-auto "
